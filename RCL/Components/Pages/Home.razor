@@ -1,0 +1,54 @@
+﻿@page "/"
+@inject Db Db
+@inject DbLocal DbLocal
+@inject SharedPreferences SharedPreferences
+@inject NavigationManager NavigationManager
+
+@code {
+    private HomeViewModel? viewModel;
+
+    protected override void OnInitialized()
+    {
+        viewModel = new HomeViewModel(Db, DbLocal, SharedPreferences, NavigationManager);
+    }
+}
+
+<div>
+    <img src="/_content/RCL/Images/bmb_logo.png" class="img-full-width" />
+    <h1>Hello!</h1>
+    <p>Welcome to the app.</p>
+</div>
+
+@if (viewModel.IsLoggedIn)
+{
+    <div>
+        <p>You are already logged in...</p>
+        <button @onclick="viewModel.LogOut">Log out</button>
+    </div>
+}
+else
+{
+    <p>Please log in to continue...</p>
+
+    <EditForm Model="viewModel.Data" OnValidSubmit="viewModel.HandleAuth">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <label>Username:</label>
+            <InputText placeholder="Enter username" @bind-Value="viewModel.Data.Username" required/>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <label>Password:</label>
+            <InputText placeholder="Enter password" @bind-Value="viewModel.Data.Password" type="password" required/>
+        </div>
+
+        <div>
+            <p role="status">@viewModel.Message</p>
+            <button type="submit">Log in</button>
+        </div>
+    </EditForm>
+
+    <p>You don't have an account?</p>
+    <a href="register">Sign up</a>
+}

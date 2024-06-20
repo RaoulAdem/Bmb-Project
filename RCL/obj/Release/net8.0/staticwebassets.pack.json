@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\RCL.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RCL.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\Profiles\\raoul\\Screenshot 2024-02-02 122327.png",
+      "PackagePath": "staticwebassets\\Images\\Profiles\\raoul\\Screenshot 2024-02-02 122327.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\Profiles\\raoul\\Screenshot 2024-02-04 113218.png",
+      "PackagePath": "staticwebassets\\Images\\Profiles\\raoul\\Screenshot 2024-02-04 113218.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\Profiles\\raoul\\Screenshot 2024-02-04 114158.png",
+      "PackagePath": "staticwebassets\\Images\\Profiles\\raoul\\Screenshot 2024-02-04 114158.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\Profiles\\raoul\\Screenshot 2024-02-04 130420.png",
+      "PackagePath": "staticwebassets\\Images\\Profiles\\raoul\\Screenshot 2024-02-04 130420.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\Profiles\\raoul\\Screenshot 2024-02-04 180753.png",
+      "PackagePath": "staticwebassets\\Images\\Profiles\\raoul\\Screenshot 2024-02-04 180753.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\Profiles\\raoul\\Screenshot 2024-02-13 133050.png",
+      "PackagePath": "staticwebassets\\Images\\Profiles\\raoul\\Screenshot 2024-02-13 133050.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\Profiles\\raoul\\WIN_20230120_14_27_40_Pro.jpg",
+      "PackagePath": "staticwebassets\\Images\\Profiles\\raoul\\WIN_20230120_14_27_40_Pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\Profiles\\raoul\\WIN_20230120_14_28_09_Pro.jpg",
+      "PackagePath": "staticwebassets\\Images\\Profiles\\raoul\\WIN_20230120_14_28_09_Pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\Profiles\\raoul\\WIN_20231110_11_58_11_Pro.jpg",
+      "PackagePath": "staticwebassets\\Images\\Profiles\\raoul\\WIN_20231110_11_58_11_Pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\Profiles\\raoul\\images.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Profiles\\raoul\\images.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\Profiles\\raoul\\images.png",
+      "PackagePath": "staticwebassets\\Images\\Profiles\\raoul\\images.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\bmb_logo.png",
+      "PackagePath": "staticwebassets\\Images\\bmb_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\dotnet_bot.svg",
+      "PackagePath": "staticwebassets\\Images\\dotnet_bot.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\loading.jpg",
+      "PackagePath": "staticwebassets\\Images\\loading.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\Images\\profile.png",
+      "PackagePath": "staticwebassets\\Images\\profile.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.RCL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.RCL.props",
+      "PackagePath": "build\\RCL.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RCL.props",
+      "PackagePath": "buildMultiTargeting\\RCL.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.RCL.props",
+      "PackagePath": "buildTransitive\\RCL.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,100 @@
+﻿@page "/admin"
+@inject Db Db
+@inject DbLocal DbLocal
+@inject SharedPreferences SharedPreferences
+@inject NavigationManager NavigationManager
+
+@code {
+    private AdminViewModel? viewModel;
+
+    protected async override void OnInitialized()
+    {
+        viewModel = new AdminViewModel(Db, DbLocal, SharedPreferences, NavigationManager);
+        await viewModel.LoadProfileDataAsync(); //load data
+        StateHasChanged(); //update UI
+    }
+}
+
+<div>
+    <img src="/_content/RCL/Images/dotnet_bot.svg" class="img-full-width" />
+    <h1>Admin Page</h1>
+    <p>Get access to all the users of your platform.</p>
+</div>
+
+@if (viewModel.IsLoggedIn)
+{
+    @if (!viewModel.IsAdmin)
+    {
+        <p>You do not have access to this page!</p>
+    } else
+    {
+        <p>Currently connected as @SharedPreferences.Id.</p>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Profile</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Email</th>
+                    <th>Delete</th>
+                    <th>Is an Admin?</th>
+                    <th>Promote</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (viewModel.Data == null)
+                {
+                    <tr>
+                        <td colspan="2">Loading...</td>
+                    </tr>
+                }
+                else
+                {
+                    @foreach (var item in viewModel.Data)
+                    {
+                        <tr>
+                            @if (item.Profile != null)
+                            {
+                                <td>
+                                    <img src=@item.Profile class="profile" />
+                                </td>
+                            } else
+                            {
+                                <td>
+                                    <img src="/_content/RCL/Images/profile.png" class="profile" />
+                                </td>
+                            }
+                            @if (item.Username == SharedPreferences.Id)
+                            {
+                                <td>@item.Username (YOU)</td>
+                            }
+                            else
+                            {
+                                <td>@item.Username</td>
+                            }
+                            <td>@item.Password</td>
+                            <td>@item.Email</td>
+                            <td>
+                                <button class="red" @onclick="() => viewModel.DeleteUser(item.Username)">Remove</button>
+                            </td>
+                            <td>@item.isAdmin</td>
+                            <td>
+                                <button @onclick="() => viewModel.AdminUser(item.Username)">Make Admin</button>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+
+        <p role="status">@viewModel.Message</p>
+    }
+    }
+else
+{
+    <div>
+        <p>You must log in.</p>
+        <button @onclick="viewModel.SignIn">Sign in</button>
+    </div>
+}
