@@ -46,3 +46,4 @@ C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\RCL.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\refint\RCL.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\RCL.pdb
 C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\ref\RCL.dll
+C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\RCL.sourcelink.json

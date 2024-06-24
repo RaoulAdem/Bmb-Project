@@ -27,15 +27,7 @@ namespace Hybrid
             builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
-            //initialize the database
-            var app = builder.Build();
-            using (var scope = app.Services.CreateScope())
-            {
-                var context = scope.ServiceProvider.GetRequiredService<DbLocal>();
-                DbLocal.Initialize(context);
-            }
-
-            return app;
+            return builder.Build();
         }
     }
 }

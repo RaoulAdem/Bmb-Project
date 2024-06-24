@@ -1,6 +1,5 @@
 ﻿@page "/admin"
 @inject Db Db
-@inject DbLocal DbLocal
 @inject SharedPreferences SharedPreferences
 @inject NavigationManager NavigationManager
 
@@ -9,7 +8,7 @@
 
     protected async override void OnInitialized()
     {
-        viewModel = new AdminViewModel(Db, DbLocal, SharedPreferences, NavigationManager);
+        viewModel = new AdminViewModel(Db, SharedPreferences, NavigationManager);
         await viewModel.LoadProfileDataAsync(); //load data
         StateHasChanged(); //update UI
     }

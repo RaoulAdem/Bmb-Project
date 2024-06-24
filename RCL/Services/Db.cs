@@ -11,14 +11,16 @@ namespace RCL
 {
     public class Db
     {
-        //localhost
         private readonly string ConnectionString = "server=localhost;port=3306;database=bmb_app;user=root";
-        //for android devices, it "should be 10.0.2.2"
-        //private readonly string AndroidConnectionString = "server=10.0.2.2;port=3306;database=bmb_app;user=root";
+        private readonly string AndroidConnectionString = "server=10.0.2.2;port=3306;database=bmb_app;user=root";
 
         //method to get the ConnectionString depending on the platform the user is
         public string GetConnection()
         {
+            if(PlatformCheck.IsAndroid())
+            {
+                return AndroidConnectionString;
+            }
             return ConnectionString;
         }
 

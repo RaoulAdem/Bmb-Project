@@ -14,7 +14,6 @@ namespace RCL
     public class AdminViewModel : INotifyPropertyChanged
     {
         private readonly Db _db;
-        private readonly DbLocal _dbLocal;
         private readonly SharedPreferences _sharedPreferences;
         private readonly NavigationManager _navigationManager;
         private List<User> _data;
@@ -22,10 +21,9 @@ namespace RCL
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        public AdminViewModel(Db db, DbLocal dbLocal, SharedPreferences sharedPreferences, NavigationManager navigationManager)
+        public AdminViewModel(Db db, SharedPreferences sharedPreferences, NavigationManager navigationManager)
         {
             _db = db;
-            _dbLocal = dbLocal;
             _sharedPreferences = sharedPreferences;
             _navigationManager = navigationManager;
             _data = new List<User>();

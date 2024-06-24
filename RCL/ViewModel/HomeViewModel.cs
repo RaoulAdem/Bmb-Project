@@ -3,7 +3,6 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
-using Microsoft.Data.Sqlite;
 using MySqlConnector;
 
 namespace RCL
@@ -11,7 +10,6 @@ namespace RCL
     public class HomeViewModel : INotifyPropertyChanged
     {
         private readonly Db _db;
-        private readonly DbLocal _dbLocal;
         private readonly SharedPreferences _sharedPreferences;
         private readonly NavigationManager _navigationManager;
         private User _data;
@@ -19,14 +17,14 @@ namespace RCL
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        public HomeViewModel(Db db, DbLocal dbLocal, SharedPreferences sharedPreferences, NavigationManager navigationManager)
+        public HomeViewModel(Db db, SharedPreferences sharedPreferences, NavigationManager navigationManager)
         {
             _db = db;
-            _dbLocal = dbLocal;
             _sharedPreferences = sharedPreferences;
             _navigationManager = navigationManager;
             _data = new User();
             _message = string.Empty;
+            SQLitePCL.Batteries.Init();
         }
 
         public User Data
@@ -52,46 +50,6 @@ namespace RCL
 
         public async Task HandleAuth()
         {
-            if (PlatformCheck.IsAndroid())
-            {
-                using (var conn = new SqliteConnection(_dbLocal.GetConnection()))
-                {
-                    conn.Open();
-                    using (var cmd = new SqliteCommand("SELECT COUNT(*) FROM users WHERE Username=@username AND Password=@password", conn))
-                    {
-                        cmd.Parameters.AddWithValue("@username", _data.Username.ToLower());
-                        cmd.Parameters.AddWithValue("@password", _data.Password);
-                        var count = Convert.ToInt32(await cmd.ExecuteScalarAsync());
-                        if (count > 0)
-                        {
-                            _sharedPreferences.Id = _data.Username.ToLower();
-                            _navigationManager.NavigateTo("/profile");
-                        }
-                        else
-                        {
-                            _message = "Wrong username or password!";
-                            return;
-                        }
-                    }
-                    using (var cmd = new SqliteCommand("SELECT IsAdmin FROM users WHERE Username=@username", conn))
-                    {
-                        cmd.Parameters.AddWithValue("@username", _data.Username.ToLower());
-                        var result = await cmd.ExecuteScalarAsync() as string;
-                        if (result == "yes")
-                        {
-                            _sharedPreferences.IsAdmin = true;
-                            _navigationManager.NavigateTo("/admin");
-                        }
-                        else
-                        {
-                            _sharedPreferences.IsAdmin = false;
-                            _navigationManager.NavigateTo("/profile");
-                        }
-                    }
-                    await conn.CloseAsync();
-                }
-                return;
-            }
             using (var conn = new MySqlConnection(_db.GetConnection()))
             {
                 await conn.OpenAsync();
