@@ -6,10 +6,10 @@
 @code {
     private ProfileViewModel? viewModel;
 
-    protected async override void OnInitialized()
+    protected override void OnInitialized()
     {
         viewModel = new ProfileViewModel(Db, SharedPreferences, NavigationManager);
-        await viewModel.LoadProfileDataAsync(); //load data
+        //await viewModel.LoadProfileDataAsync(); //load data
         StateHasChanged(); //update UI
     }
 }
@@ -24,6 +24,7 @@
     <div>
         <p>You must log in.</p>
         <button @onclick="viewModel.SignIn">Sign in</button>
+        <button @onclick="viewModel.HandleFileSelectedAndroid">Pick a picture</button>
     </div>
 }
 else
@@ -53,7 +54,13 @@ else
             <p style="display: inline;">@viewModel.Data.isAdmin</p>
             <br />
             <label>Profile photo:</label>
-            <InputFile OnChange="viewModel.HandleFileSelected" />
+            @if (PlatformCheck.IsAndroid())
+            {
+                <button @onclick="viewModel.HandleFileSelectedAndroid">Pick a picture</button>
+            } else
+            {
+                <InputFile OnChange="viewModel.HandleFileSelected" />
+            }
             <br />
             <button @onclick="viewModel.UploadProfile">Upload</button>
             <p role="status">@viewModel.Message</p>

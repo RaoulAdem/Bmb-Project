@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hybrid")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8987850c24eff94cadae9b380e976ea3b614cd9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6c4e596c8b6ba53a78eec494460c3632d8eca2a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hybrid")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hybrid")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

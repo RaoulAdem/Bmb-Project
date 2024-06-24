@@ -59,24 +59,65 @@ namespace RCL
             }
         }
 
-        //to modify!!!!
-        public bool IsLoggedIn => string.IsNullOrEmpty(_sharedPreferences.Id);
+        public bool IsLoggedIn => !string.IsNullOrEmpty(_sharedPreferences.Id);
 
         //OnInitializedAsync()
         public async Task LoadProfileDataAsync()
         {
             Data = await _db.GetProfileDataAsync(_sharedPreferences.Id);
-            //if (MediaPicker.IsCaptureSupported)
-            //{
-            //    Message = "Yes";
-            //    await MediaPicker.CapturePhotoAsync();
-            //}
-            //else
-            //{
-            //    Message = "No";
-            //}
         }
 
+        public async Task<bool> RequestPermissionsAsync()
+        {
+            var status = await Permissions.CheckStatusAsync<Permissions.Camera>();
+            if (status != PermissionStatus.Granted)
+            {
+                status = await Permissions.RequestAsync<Permissions.Camera>();
+                if (status != PermissionStatus.Granted)
+                {
+                    return false;
+                }
+            }
+            status = await Permissions.CheckStatusAsync<Permissions.StorageRead>();
+            if (status != PermissionStatus.Granted)
+            {
+                status = await Permissions.RequestAsync<Permissions.StorageRead>();
+                if (status != PermissionStatus.Granted)
+                {
+                    return false;
+                }
+            }
+            status = await Permissions.CheckStatusAsync<Permissions.StorageWrite>();
+            if (status != PermissionStatus.Granted)
+            {
+                status = await Permissions.RequestAsync<Permissions.StorageWrite>();
+                if (status != PermissionStatus.Granted)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+        public async Task HandleFileSelectedAndroid()
+        {
+            if (PlatformCheck.IsAndroid())
+            {
+                bool permissionsGranted = await RequestPermissionsAsync();
+                if (!permissionsGranted)
+                {
+                    Message = "Required permissions not granted!";
+                    return;
+                }
+                if (MediaPicker.IsCaptureSupported)
+                {
+                    var photo = await MediaPicker.CapturePhotoAsync();
+                }
+                else
+                {
+                    Message = "Error...";
+                }
+            }
+        }
         public async Task HandleFileSelected(InputFileChangeEventArgs e)
         {
             _file = e.File;
@@ -103,7 +144,7 @@ namespace RCL
                 Message = "Press upload.";
             }
         }
-        
+
         public async Task UploadProfile()
         {
             if (string.IsNullOrEmpty(ProfilePath))
