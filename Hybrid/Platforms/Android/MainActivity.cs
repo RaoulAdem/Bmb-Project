@@ -31,26 +31,24 @@ namespace Hybrid
 
         public override void OnBackPressed()
         {
-            exitToast = Toast.MakeText(this, "ok", ToastLength.Long);
+            if (doubleBackToExitPressedOnce)
+            {
+                if (exitToast != null)
+                {
+                    exitToast.Cancel();
+                }
+                base.OnBackPressed();
+                return;
+            }
+
+            doubleBackToExitPressedOnce = true;
+            exitToast = Toast.MakeText(this, "Press back again to exit.", ToastLength.Short);
             exitToast.Show();
-            //if (doubleBackToExitPressedOnce)
-            //{
-            //    if (exitToast != null)
-            //    {
-            //        exitToast.Cancel();
-            //    }
-            //    base.OnBackPressed();
-            //    return;
-            //}
 
-            //doubleBackToExitPressedOnce = true;
-            //exitToast = Toast.MakeText(this, "Press back again to exit.", ToastLength.Short);
-            //exitToast.Show();
-
-            //new Handler(Looper.MainLooper).PostDelayed(() =>
-            //{
-            //    doubleBackToExitPressedOnce = false;
-            //}, 2000); // Reset flag after 2 seconds
+            new Handler(Looper.MainLooper).PostDelayed(() =>
+            {
+                doubleBackToExitPressedOnce = false;
+            }, 2000); //rset flag after 2 seconds
         }
     }
 }

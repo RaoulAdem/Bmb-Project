@@ -31,6 +31,7 @@ C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\RCL.GeneratedMSBuildE
 C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\RCL.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\RCL.AssemblyInfo.cs
 C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\RCL.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\RCL.sourcelink.json
 C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\staticwebassets\msbuild.RCL.Microsoft.AspNetCore.StaticWebAssets.props
@@ -46,4 +47,3 @@ C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\RCL.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\refint\RCL.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\RCL.pdb
 C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\ref\RCL.dll
-C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\RCL.sourcelink.json

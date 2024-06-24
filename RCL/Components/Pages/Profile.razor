@@ -25,6 +25,7 @@
         <p>You must log in.</p>
         <button @onclick="viewModel.SignIn">Sign in</button>
         <button @onclick="viewModel.HandleFileSelectedAndroid">Pick a picture</button>
+        <p role="status">@viewModel.Message</p>
     </div>
 }
 else

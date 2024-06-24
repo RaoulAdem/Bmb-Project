@@ -67,54 +67,34 @@ namespace RCL
             Data = await _db.GetProfileDataAsync(_sharedPreferences.Id);
         }
 
-        public async Task<bool> RequestPermissionsAsync()
-        {
-            var status = await Permissions.CheckStatusAsync<Permissions.Camera>();
-            if (status != PermissionStatus.Granted)
-            {
-                status = await Permissions.RequestAsync<Permissions.Camera>();
-                if (status != PermissionStatus.Granted)
-                {
-                    return false;
-                }
-            }
-            status = await Permissions.CheckStatusAsync<Permissions.StorageRead>();
-            if (status != PermissionStatus.Granted)
-            {
-                status = await Permissions.RequestAsync<Permissions.StorageRead>();
-                if (status != PermissionStatus.Granted)
-                {
-                    return false;
-                }
-            }
-            status = await Permissions.CheckStatusAsync<Permissions.StorageWrite>();
-            if (status != PermissionStatus.Granted)
-            {
-                status = await Permissions.RequestAsync<Permissions.StorageWrite>();
-                if (status != PermissionStatus.Granted)
-                {
-                    return false;
-                }
-            }
-            return true;
-        }
         public async Task HandleFileSelectedAndroid()
         {
             if (PlatformCheck.IsAndroid())
             {
-                bool permissionsGranted = await RequestPermissionsAsync();
-                if (!permissionsGranted)
+                try
                 {
-                    Message = "Required permissions not granted!";
-                    return;
-                }
-                if (MediaPicker.IsCaptureSupported)
+                    FileResult photo = await MediaPicker.CapturePhotoAsync();
+                    if (photo != null)
+                    {
+                        string uploadDirectory = Path.Combine(FileSystem.AppDataDirectory, "Profiles/raoul");
+                        if (!Directory.Exists(uploadDirectory))
+                        {
+                            Directory.CreateDirectory(uploadDirectory);
+                        }
+
+                        // Define the full path to save the photo
+                        string fullPath = Path.Combine(uploadDirectory, photo.FileName);
+
+                        // Save the photo
+                        using Stream sourceStream = await photo.OpenReadAsync();
+                        using FileStream localFileStream = new FileStream(fullPath, FileMode.Create, FileAccess.Write);
+
+                        await sourceStream.CopyToAsync(localFileStream);
+                        Message = $"{fullPath}\n {photo.FileName}";
+                    }
+                } catch (Exception ex)
                 {
-                    var photo = await MediaPicker.CapturePhotoAsync();
-                }
-                else
-                {
-                    Message = "Error...";
+                    Message = ex.Message;
                 }
             }
         }
