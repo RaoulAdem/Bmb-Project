@@ -927,6 +927,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -2815,6 +2840,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -3752,6 +3778,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -5634,6 +5685,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -6571,6 +6623,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -8453,6 +8530,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -9390,6 +9468,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -11272,6 +11375,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -12209,6 +12313,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -14091,6 +14220,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -15028,6 +15158,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -16910,6 +17065,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -17847,6 +18003,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -19729,6 +19910,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -20666,6 +20848,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -22548,6 +22755,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -23444,6 +23652,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -23551,6 +23784,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -24447,6 +24681,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -24548,6 +24807,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -25444,6 +25704,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -25545,6 +25830,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -26441,6 +26727,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -26542,6 +26853,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -27438,6 +27750,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -27539,6 +27876,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -28435,6 +28773,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -28536,6 +28899,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -29432,6 +29796,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -29533,6 +29922,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -30429,6 +30819,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -30530,6 +30945,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -31524,6 +31940,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -31623,6 +32064,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -32534,6 +32976,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -32627,6 +33094,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -33538,6 +34006,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -33631,6 +34124,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -34542,6 +35036,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -34635,6 +35154,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -35546,6 +36066,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -35639,6 +36184,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -36547,6 +37093,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -36640,6 +37211,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -37551,6 +38123,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -37644,6 +38241,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -38552,6 +39150,31 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -38645,6 +39268,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -39794,6 +40418,31 @@
           "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -39893,6 +40542,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -40919,6 +41569,31 @@
           "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -41012,6 +41687,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -42038,6 +42714,31 @@
           "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -42131,6 +42832,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -43157,6 +43859,31 @@
           "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -43250,6 +43977,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -44276,6 +45004,31 @@
           "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -44369,6 +45122,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -45392,6 +46146,31 @@
           "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -45485,6 +46264,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -46511,6 +47291,31 @@
           "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -46604,6 +47409,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -47636,6 +48442,31 @@
           "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "related": ".deps.json;.pri;.xml"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -47729,6 +48560,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -50547,6 +51379,84 @@
         "sqlitepclraw.provider.sqlite3.nuspec"
       ]
     },
+    "Syncfusion.Licensing/26.1.39": {
+      "sha512": "UszHYIDFw/+venT3oEGlFD+1gwTTyqUO054QvJY4GTiKAnqetMU81bFSEeJmWOExKS9V/Yo0PTOayK+kcYJjqw==",
+      "type": "package",
+      "path": "syncfusion.licensing/26.1.39",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net462/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/net8.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.26.1.39.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.Core/26.1.39": {
+      "sha512": "yc0xrjErNQJvqy/kRRza1XOv548wj6VEL8YwXpWh9rAwLJ2J99JGWBQa9wNxGSRupTAinjEefbVQvaazo4YfMw==",
+      "type": "package",
+      "path": "syncfusion.maui.core/26.1.39",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Core.aar",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-android33.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-ios16.1/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-maccatalyst16.1/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.pri",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/CarouselStyles.xaml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/CarouselStyles.xbf",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/Resources.xaml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/Resources.xbf",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/RotatorStyles.xaml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/RotatorStyles.xbf",
+        "lib/net7.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net7.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-android34.0/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-ios16.1/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-maccatalyst16.1/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.pri",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.xml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/CarouselStyles.xaml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/CarouselStyles.xbf",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/Resources.xaml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/Resources.xbf",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/RotatorStyles.xaml",
+        "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core/Platform/Windows/Styles/RotatorStyles.xbf",
+        "lib/net8.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net8.0/Syncfusion.Maui.Core.dll",
+        "lib/net8.0/Syncfusion.Maui.Core.xml",
+        "syncfusion.maui.core.26.1.39.nupkg.sha512",
+        "syncfusion.maui.core.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
     "System.Buffers/4.4.0": {
       "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
       "type": "package",
@@ -52913,6 +53823,7 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.6",
       "MySqlConnector >= 2.3.7",
       "RCL >= 1.0.0",
+      "Syncfusion.Maui.Core >= 26.1.39",
       "Xamarin.Essentials >= 1.8.1"
     ],
     "net8.0-ios17.2": [
@@ -52923,6 +53834,7 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.6",
       "MySqlConnector >= 2.3.7",
       "RCL >= 1.0.0",
+      "Syncfusion.Maui.Core >= 26.1.39",
       "Xamarin.Essentials >= 1.8.1"
     ],
     "net8.0-maccatalyst17.2": [
@@ -52933,6 +53845,7 @@
       "Microsoft.NET.ILLink.Tasks >= 8.0.6",
       "MySqlConnector >= 2.3.7",
       "RCL >= 1.0.0",
+      "Syncfusion.Maui.Core >= 26.1.39",
       "Xamarin.Essentials >= 1.8.1"
     ],
     "net8.0-windows10.0.19041": [
@@ -52942,6 +53855,7 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.60",
       "MySqlConnector >= 2.3.7",
       "RCL >= 1.0.0",
+      "Syncfusion.Maui.Core >= 26.1.39",
       "Xamarin.Essentials >= 1.8.1"
     ]
   },
@@ -53053,6 +53967,10 @@
             "target": "Package",
             "version": "[2.3.7, )"
           },
+          "Syncfusion.Maui.Core": {
+            "target": "Package",
+            "version": "[26.1.39, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.8.1, )"
@@ -53107,6 +54025,10 @@
           "MySqlConnector": {
             "target": "Package",
             "version": "[2.3.7, )"
+          },
+          "Syncfusion.Maui.Core": {
+            "target": "Package",
+            "version": "[26.1.39, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
@@ -53163,6 +54085,10 @@
             "target": "Package",
             "version": "[2.3.7, )"
           },
+          "Syncfusion.Maui.Core": {
+            "target": "Package",
+            "version": "[26.1.39, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.8.1, )"
@@ -53212,6 +54138,10 @@
           "MySqlConnector": {
             "target": "Package",
             "version": "[2.3.7, )"
+          },
+          "Syncfusion.Maui.Core": {
+            "target": "Package",
+            "version": "[26.1.39, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

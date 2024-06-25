@@ -66,6 +66,10 @@
               "target": "Package",
               "version": "[2.1.8, )"
             },
+            "Syncfusion.Maui.Core": {
+              "target": "Package",
+              "version": "[26.1.39, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.8.1, )"

@@ -18,6 +18,7 @@ namespace RCL
         private IBrowserFile _file;
         private string _profilePath;
         private string _message;
+        private string uploadDirectory = $"C:/Users/User/Desktop/BMB/Hybrid MVVM/RCL/wwwroot/Images/Profiles/";
         private const long MaxFileSize = 10*1024*1024;//10 MB in bytes
 
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -67,35 +68,56 @@ namespace RCL
             Data = await _db.GetProfileDataAsync(_sharedPreferences.Id);
         }
 
+        public void ManageDirectory(string directory)
+        {
+            if (Directory.Exists(directory))
+            {
+                Directory.Delete(directory, true);
+            }
+            Directory.CreateDirectory(directory);
+        }
         public async Task HandleFileSelectedAndroid()
         {
-            if (PlatformCheck.IsAndroid())
+            try
             {
-                try
+                FileResult photo = await MediaPicker.PickPhotoAsync(new MediaPickerOptions { Title = "Please pick a picture" });
+                using (Stream sourceStream = await photo.OpenReadAsync())
                 {
-                    FileResult photo = await MediaPicker.CapturePhotoAsync();
-                    if (photo != null)
+                    string saveDirectory = Path.Combine(FileSystem.AppDataDirectory, "Profiles/raoul"); //
+                    ManageDirectory(saveDirectory);
+                    string localFilePath = Path.Combine(saveDirectory, photo.FileName);
+                    using (FileStream localFileStream = File.OpenWrite(localFilePath))
                     {
-                        string uploadDirectory = Path.Combine(FileSystem.AppDataDirectory, "Profiles/raoul");
-                        if (!Directory.Exists(uploadDirectory))
-                        {
-                            Directory.CreateDirectory(uploadDirectory);
-                        }
-
-                        // Define the full path to save the photo
-                        string fullPath = Path.Combine(uploadDirectory, photo.FileName);
-
-                        // Save the photo
-                        using Stream sourceStream = await photo.OpenReadAsync();
-                        using FileStream localFileStream = new FileStream(fullPath, FileMode.Create, FileAccess.Write);
-
                         await sourceStream.CopyToAsync(localFileStream);
-                        Message = $"{fullPath}\n {photo.FileName}";
                     }
-                } catch (Exception ex)
-                {
-                    Message = ex.Message;
+                    Message = "Image ready, press upload.\n" + localFilePath;
                 }
+            }
+            catch (Exception ex)
+            {
+                Message = "Please pick a photo.";
+            }
+        }
+        public async Task HandlePhotoTakeAndroid()
+            {
+            try
+            {
+                FileResult photo = await MediaPicker.CapturePhotoAsync(new MediaPickerOptions { Title = "Please take a photo" });
+                using (Stream sourceStream = await photo.OpenReadAsync())
+                {
+                    string saveDirectory = Path.Combine(FileSystem.AppDataDirectory, "Profiles/raoul"); //
+                    ManageDirectory(saveDirectory);
+                    string localFilePath = Path.Combine(saveDirectory, photo.FileName);
+                    using (FileStream localFileStream = File.OpenWrite(localFilePath))
+                    {
+                        await sourceStream.CopyToAsync(localFileStream);
+                    }
+                    Message = "Image ready, press upload.\n" + localFilePath;
+                }
+            }
+            catch (Exception ex)
+            {
+                Message = "Error...";
             }
         }
         public async Task HandleFileSelected(InputFileChangeEventArgs e)
@@ -110,18 +132,15 @@ namespace RCL
             }
             if (_file != null && _file.Size > 0)
             {
-                string uploadDirectory = $"C:/Users/User/Desktop/BMB/Hybrid MVVM/RCL/wwwroot/Images/Profiles/{_sharedPreferences.Id}";
-                if (!Directory.Exists(uploadDirectory))
-                {
-                    Directory.CreateDirectory(uploadDirectory);
-                }
+                uploadDirectory += _sharedPreferences.Id;
+                ManageDirectory(uploadDirectory);
                 string fullPath = Path.Combine(uploadDirectory, _file.Name);
                 using (FileStream fs = new FileStream(fullPath, FileMode.Create))
                 {
                     await _file.OpenReadStream().CopyToAsync(fs);
                 }
                 ProfilePath = $"/_content/RCL/Images/Profiles/{_sharedPreferences.Id}/{_file.Name}";
-                Message = "Press upload.";
+                Message = "Image ready, press upload.";
             }
         }
 

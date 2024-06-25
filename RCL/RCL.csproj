@@ -6,6 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Components\Pages\Image.razor" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <SupportedPlatform Include="browser" />
@@ -17,6 +21,7 @@
     <PackageReference Include="MySqlConnector" Version="2.3.7" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
     <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.8" />
+    <PackageReference Include="Syncfusion.Maui.Core" Version="26.1.39" />
     <PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
   </ItemGroup>
 
@@ -27,6 +32,18 @@
     <Content Update="_Imports.razor">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Components\Pages\Image.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\Pages\Image.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Components\Pages\Image.razor" />
   </ItemGroup>
 
 </Project>

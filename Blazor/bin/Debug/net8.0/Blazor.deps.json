@@ -10,6 +10,7 @@
         "dependencies": {
           "MySqlConnector": "2.3.7",
           "RCL": "1.0.0",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1"
         },
         "runtime": {
@@ -331,17 +332,28 @@
           }
         }
       },
-      "System.IO.Pipelines/8.0.0": {},
-      "System.Memory/4.5.3": {},
-      "System.Numerics.Vectors/4.5.0": {},
-      "Xam.Plugin.Media/6.0.2": {
+      "Syncfusion.Licensing/26.1.39": {
         "runtime": {
-          "lib/netstandard2.0/Plugin.Media.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "lib/net8.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "26.1.39.0",
+            "fileVersion": "26.1.39.0"
           }
         }
       },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "runtime": {
+          "lib/net8.0/Syncfusion.Maui.Core.dll": {
+            "assemblyVersion": "26.1.39.0",
+            "fileVersion": "26.1.39.0"
+          }
+        }
+      },
+      "System.IO.Pipelines/8.0.0": {},
+      "System.Memory/4.5.3": {},
+      "System.Numerics.Vectors/4.5.0": {},
       "Xamarin.Essentials/1.8.1": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -359,7 +371,7 @@
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
           "SQLitePCLRaw.bundle_green": "2.1.8",
-          "Xam.Plugin.Media": "6.0.2",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -543,6 +555,20 @@
       "path": "sqlitepclraw.provider.e_sqlite3/2.1.8",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.2.1.8.nupkg.sha512"
     },
+    "Syncfusion.Licensing/26.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UszHYIDFw/+venT3oEGlFD+1gwTTyqUO054QvJY4GTiKAnqetMU81bFSEeJmWOExKS9V/Yo0PTOayK+kcYJjqw==",
+      "path": "syncfusion.licensing/26.1.39",
+      "hashPath": "syncfusion.licensing.26.1.39.nupkg.sha512"
+    },
+    "Syncfusion.Maui.Core/26.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yc0xrjErNQJvqy/kRRza1XOv548wj6VEL8YwXpWh9rAwLJ2J99JGWBQa9wNxGSRupTAinjEefbVQvaazo4YfMw==",
+      "path": "syncfusion.maui.core/26.1.39",
+      "hashPath": "syncfusion.maui.core.26.1.39.nupkg.sha512"
+    },
     "System.IO.Pipelines/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -563,13 +589,6 @@
       "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
-    },
-    "Xam.Plugin.Media/6.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-QLl5CXxSDF92+E154djfDKOoPSjvGkQSxYmLY0Fitnb6P4B103JQDU7lZlH0ez67GtzZDa8kWvS0Go0Yv1w9og==",
-      "path": "xam.plugin.media/6.0.2",
-      "hashPath": "xam.plugin.media.6.0.2.nupkg.sha512"
     },
     "Xamarin.Essentials/1.8.1": {
       "type": "package",
