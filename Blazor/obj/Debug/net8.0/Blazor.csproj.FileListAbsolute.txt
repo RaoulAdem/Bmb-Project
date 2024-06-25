@@ -112,3 +112,5 @@ C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\obj\Debug\net8.0\Blazor.genruntimec
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\obj\Debug\net8.0\ref\Blazor.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\Syncfusion.Licensing.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\Syncfusion.Maui.Core.dll
+C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll

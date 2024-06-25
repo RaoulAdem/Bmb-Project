@@ -12,14 +12,12 @@ namespace Hybrid
     [Activity(Theme = "@style/Maui.SplashTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize | ConfigChanges.Density)]
     public class MainActivity : MauiAppCompatActivity
     {
-        private WebViewRenderer webViewRenderer;
         private bool doubleBackToExitPressedOnce = false;
         private Toast? exitToast;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            webViewRenderer = new WebViewRenderer(this);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
         }
 

@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
-builder.Services.AddSingleton<RCL.Db>();
+builder.Services.AddSingleton<RCL.ApplicationDbContext>();
 builder.Services.AddSingleton<RCL.Auth>();
 builder.Services.AddSingleton<RCL.SharedPreferences>();
 builder.Services.AddSingleton<RCL.PlatformCheck>();

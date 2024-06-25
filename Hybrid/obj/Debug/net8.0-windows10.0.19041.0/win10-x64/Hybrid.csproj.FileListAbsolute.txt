@@ -272,7 +272,6 @@ C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.IO.Pipelines.dll
-C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Plugin.Media.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Xamarin.Essentials.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ar\Microsoft.Maui.Controls.resources.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ca\Microsoft.Maui.Controls.resources.dll
@@ -424,3 +423,7 @@ C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Syncfusion.Licensing.dll
+C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Core.dll

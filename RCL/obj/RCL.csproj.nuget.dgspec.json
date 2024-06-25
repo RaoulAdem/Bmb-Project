@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[2.3.7, )"
             },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.8, )"

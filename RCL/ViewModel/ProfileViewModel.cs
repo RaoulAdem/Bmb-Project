@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
+using Microsoft.EntityFrameworkCore;
 using MySqlConnector;
 using Xamarin.Essentials;
 
@@ -11,7 +12,7 @@ namespace RCL
 {
     public class ProfileViewModel : INotifyPropertyChanged
     {
-        private readonly Db _db;
+        private readonly ApplicationDbContext _dbContext;
         private readonly SharedPreferences _sharedPreferences;
         private readonly NavigationManager _navigationManager;
         private User _data;
@@ -23,9 +24,9 @@ namespace RCL
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        public ProfileViewModel(Db db, SharedPreferences sharedPreferences, NavigationManager navigationManager)
+        public ProfileViewModel(ApplicationDbContext dbContext, SharedPreferences sharedPreferences, NavigationManager navigationManager)
         {
-            _db = db;
+            _dbContext = dbContext;
             _sharedPreferences = sharedPreferences;
             _navigationManager = navigationManager;
             _profilePath = string.Empty;
@@ -65,7 +66,7 @@ namespace RCL
         //OnInitializedAsync()
         public async Task LoadProfileDataAsync()
         {
-            Data = await _db.GetProfileDataAsync(_sharedPreferences.Id);
+            Data = await _dbContext.GetProfileDataAsync(_sharedPreferences.Id);
         }
 
         public void ManageDirectory(string directory)
@@ -150,24 +151,25 @@ namespace RCL
             {
                 Message = "There is nothing to upload...";
             }
-            else
+            try
             {
-                using (var conn = new MySqlConnection(_db.GetConnection()))
+                var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == _sharedPreferences.Id);
+                if (user != null)
                 {
-                    await conn.OpenAsync();
-                    using (var cmd = new MySqlCommand("UPDATE users SET Profile = @profile WHERE Username = @username", conn))
-                    {
-                        cmd.Parameters.AddWithValue("@username", _sharedPreferences.Id);
-                        cmd.Parameters.AddWithValue("@profile", ProfilePath);
-                        var result = await cmd.ExecuteNonQueryAsync();
-                        if (result > 0)
-                        {
-                            Message = "Profile updated successfully!";
-                            _data = await _db.GetProfileDataAsync(_sharedPreferences.Id);
-                            await conn.CloseAsync();
-                        }
-                    }
+                    user.Profile = ProfilePath;
+                    _dbContext.Users.Update(user);
+                    await _dbContext.SaveChangesAsync();
+                    Message = "Profile updated successfully!";
+                    _data = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == _sharedPreferences.Id);
                 }
+                else
+                {
+                    Message = "User not found.";
+                }
+            }
+            catch (Exception ex)
+            {
+                Message = $"Error updating profile: {ex.Message}";
             }
         }
 

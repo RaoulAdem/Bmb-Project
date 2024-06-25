@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-20T09:22:24.905</Modified>
+      <Modified>2024-06-25T10:41:23.576</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-20T09:22:24.634</Modified>
+      <Modified>2024-06-25T10:17:30.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Hybrid.runtimeconfig.json">
       <PackagePath>Hybrid.runtimeconfig.json</PackagePath>
-      <Modified>2024-06-20T09:22:24.293</Modified>
+      <Modified>2024-06-25T10:17:30.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Hybrid.dll">
       <PackagePath>Hybrid.dll</PackagePath>
-      <Modified>2024-06-20T09:22:22.780</Modified>
+      <Modified>2024-06-25T10:41:23.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Hybrid.exe</PackagePath>
-      <Modified>2024-06-20T09:22:22.901</Modified>
+      <Modified>2024-06-25T10:41:23.292</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -147,23 +147,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-06-13T14:02:20.863</Modified>
+      <Modified>2024-06-24T11:29:55.586</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-06-13T14:02:20.910</Modified>
+      <Modified>2024-06-24T11:29:55.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-06-13T14:02:20.970</Modified>
+      <Modified>2024-06-24T11:29:55.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-06-13T14:02:21.052</Modified>
+      <Modified>2024-06-24T11:29:55.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-06-13T14:02:21.405</Modified>
+      <Modified>2024-06-24T11:29:56.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -171,211 +171,211 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-06-13T14:02:24.735</Modified>
+      <Modified>2024-06-24T11:30:10.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-06-13T14:02:26.303</Modified>
+      <Modified>2024-06-24T11:30:10.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-06-13T14:02:26.426</Modified>
+      <Modified>2024-06-24T11:30:10.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-06-13T14:02:26.508</Modified>
+      <Modified>2024-06-24T11:30:10.617</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-06-13T14:02:26.614</Modified>
+      <Modified>2024-06-24T11:30:10.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-06-13T14:02:26.997</Modified>
+      <Modified>2024-06-24T11:30:10.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.084</Modified>
+      <Modified>2024-06-24T11:30:10.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.110</Modified>
+      <Modified>2024-06-24T11:30:10.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.214</Modified>
+      <Modified>2024-06-24T11:30:10.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.135</Modified>
+      <Modified>2024-06-24T11:30:10.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.161</Modified>
+      <Modified>2024-06-24T11:30:10.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.975</Modified>
+      <Modified>2024-06-24T11:30:10.637</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.991</Modified>
+      <Modified>2024-06-24T11:30:10.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.061</Modified>
+      <Modified>2024-06-24T11:30:10.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.007</Modified>
+      <Modified>2024-06-24T11:30:10.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.020</Modified>
+      <Modified>2024-06-24T11:30:10.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.794</Modified>
+      <Modified>2024-06-24T11:30:10.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.808</Modified>
+      <Modified>2024-06-24T11:30:10.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.822</Modified>
+      <Modified>2024-06-24T11:30:10.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.837</Modified>
+      <Modified>2024-06-24T11:30:10.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.868</Modified>
+      <Modified>2024-06-24T11:30:10.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.883</Modified>
+      <Modified>2024-06-24T11:30:10.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.898</Modified>
+      <Modified>2024-06-24T11:30:10.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.962</Modified>
+      <Modified>2024-06-24T11:30:10.637</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.912</Modified>
+      <Modified>2024-06-24T11:30:10.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.927</Modified>
+      <Modified>2024-06-24T11:30:10.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.475</Modified>
+      <Modified>2024-06-24T11:30:10.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.511</Modified>
+      <Modified>2024-06-24T11:30:10.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.568</Modified>
+      <Modified>2024-06-24T11:30:10.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.628</Modified>
+      <Modified>2024-06-24T11:30:10.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.693</Modified>
+      <Modified>2024-06-24T11:30:10.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.345</Modified>
+      <Modified>2024-06-24T11:30:10.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.362</Modified>
+      <Modified>2024-06-24T11:30:10.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.383</Modified>
+      <Modified>2024-06-24T11:30:10.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.409</Modified>
+      <Modified>2024-06-24T11:30:10.627</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.454</Modified>
+      <Modified>2024-06-24T11:30:10.627</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.242</Modified>
+      <Modified>2024-06-24T11:30:10.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.257</Modified>
+      <Modified>2024-06-24T11:30:10.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.283</Modified>
+      <Modified>2024-06-24T11:30:10.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.302</Modified>
+      <Modified>2024-06-24T11:30:10.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.327</Modified>
+      <Modified>2024-06-24T11:30:10.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.725</Modified>
+      <Modified>2024-06-24T11:30:10.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.778</Modified>
+      <Modified>2024-06-24T11:30:10.621</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.844</Modified>
+      <Modified>2024-06-24T11:30:10.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.926</Modified>
+      <Modified>2024-06-24T11:30:10.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-06-13T14:02:26.232</Modified>
+      <Modified>2024-06-24T11:30:10.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.875</Modified>
+      <Modified>2024-06-24T11:30:10.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.898</Modified>
+      <Modified>2024-06-24T11:30:10.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.926</Modified>
+      <Modified>2024-06-24T11:30:10.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-06-13T14:02:24.970</Modified>
+      <Modified>2024-06-24T11:30:10.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-06-13T14:02:25.101</Modified>
+      <Modified>2024-06-24T11:30:10.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Hybrid.deps.json">
       <PackagePath>Hybrid.deps.json</PackagePath>
-      <Modified>2024-06-20T09:22:24.181</Modified>
+      <Modified>2024-06-25T10:17:30.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -384,14 +384,6 @@
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-10-16T19:41:06.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\entityframework\6.4.4\lib\netstandard2.1\EntityFramework.SqlServer.dll">
-      <PackagePath>EntityFramework.SqlServer.dll</PackagePath>
-      <Modified>2020-04-16T20:39:00.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\entityframework\6.4.4\lib\netstandard2.1\EntityFramework.dll">
-      <PackagePath>EntityFramework.dll</PackagePath>
-      <Modified>2020-04-16T20:38:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.aspnetcore.authorization\8.0.6\lib\net8.0\Microsoft.AspNetCore.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
@@ -413,9 +405,9 @@
       <PackagePath>Microsoft.AspNetCore.Components.WebView.dll</PackagePath>
       <Modified>2023-11-01T01:08:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.aspnetcore.components.webview.maui\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.AspNetCore.Components.WebView.Maui.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.aspnetcore.components.webview.maui\8.0.60\lib\net8.0-windows10.0.19041\Microsoft.AspNetCore.Components.WebView.Maui.dll">
       <PackagePath>Microsoft.AspNetCore.Components.WebView.Maui.dll</PackagePath>
-      <Modified>2024-04-18T23:38:00.000</Modified>
+      <Modified>2024-06-10T01:33:18.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.aspnetcore.metadata\8.0.6\lib\net8.0\Microsoft.AspNetCore.Metadata.dll">
       <PackagePath>Microsoft.AspNetCore.Metadata.dll</PackagePath>
@@ -428,6 +420,10 @@
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.entityframeworkcore.abstractions\8.0.6\lib\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
       <Modified>2024-05-19T23:54:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.entityframeworkcore.relational\8.0.2\lib\net8.0\Microsoft.EntityFrameworkCore.Relational.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
+      <Modified>2024-01-18T10:49:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.extensions.caching.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Caching.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
@@ -513,37 +509,33 @@
       <PackagePath>Microsoft.JSInterop.dll</PackagePath>
       <Modified>2024-05-20T04:23:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.compatibility\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.compatibility\8.0.60\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.dll">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.dll</PackagePath>
-      <Modified>2024-04-18T23:37:10.000</Modified>
+      <Modified>2024-06-10T01:32:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.dll">
       <PackagePath>Microsoft.Maui.Controls.dll</PackagePath>
-      <Modified>2024-04-18T23:33:42.000</Modified>
+      <Modified>2024-06-10T01:31:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.xaml\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.xaml\8.0.60\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Xaml.dll">
       <PackagePath>Microsoft.Maui.Controls.Xaml.dll</PackagePath>
-      <Modified>2024-04-18T23:35:38.000</Modified>
+      <Modified>2024-06-10T01:31:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.core\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.core\8.0.60\lib\net8.0-windows10.0.19041\Microsoft.Maui.dll">
       <PackagePath>Microsoft.Maui.dll</PackagePath>
-      <Modified>2024-04-18T23:34:06.000</Modified>
+      <Modified>2024-06-10T01:31:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.essentials\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Essentials.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.essentials\8.0.60\lib\net8.0-windows10.0.19041\Microsoft.Maui.Essentials.dll">
       <PackagePath>Microsoft.Maui.Essentials.dll</PackagePath>
-      <Modified>2024-04-18T23:36:22.000</Modified>
+      <Modified>2024-06-10T01:33:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.graphics\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.graphics\8.0.60\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
       <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
-      <Modified>2024-04-18T23:34:14.000</Modified>
+      <Modified>2024-06-10T01:31:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.60\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
-      <Modified>2024-04-18T23:36:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.win32.systemevents\4.7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll">
-      <PackagePath>Microsoft.Win32.SystemEvents.dll</PackagePath>
-      <Modified>2019-11-15T08:54:18.000</Modified>
+      <Modified>2024-06-10T01:32:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
@@ -609,185 +601,177 @@
       <PackagePath>MySqlConnector.dll</PackagePath>
       <Modified>2024-04-22T07:29:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\stub.system.data.sqlite.core.netstandard\1.0.118\lib\netstandard2.1\System.Data.SQLite.dll">
-      <PackagePath>System.Data.SQLite.dll</PackagePath>
-      <Modified>2023-06-10T21:02:42.000</Modified>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\pomelo.entityframeworkcore.mysql\8.0.2\lib\net8.0\Pomelo.EntityFrameworkCore.MySql.dll">
+      <PackagePath>Pomelo.EntityFrameworkCore.MySql.dll</PackagePath>
+      <Modified>2024-03-16T09:50:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\system.codedom\4.7.0\lib\netstandard2.0\System.CodeDom.dll">
-      <PackagePath>System.CodeDom.dll</PackagePath>
-      <Modified>2019-11-15T08:36:56.000</Modified>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\sqlite-net-pcl\1.9.172\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2024-03-27T22:22:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\system.configuration.configurationmanager\4.7.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll">
-      <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>
-      <Modified>2019-11-15T08:37:04.000</Modified>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\sqlitepclraw.bundle_green\2.1.8\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2024-02-05T21:23:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\system.data.sqlclient\4.8.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll">
-      <PackagePath>System.Data.SqlClient.dll</PackagePath>
-      <Modified>2020-01-17T18:41:44.000</Modified>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\sqlitepclraw.core\2.1.8\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2024-02-05T21:20:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\system.data.sqlite.ef6\1.0.118\lib\netstandard2.1\System.Data.SQLite.EF6.dll">
-      <PackagePath>System.Data.SQLite.EF6.dll</PackagePath>
-      <Modified>2023-06-10T21:00:54.000</Modified>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.8\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2024-02-05T21:21:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\system.drawing.common\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll">
-      <PackagePath>System.Drawing.Common.dll</PackagePath>
-      <Modified>2019-11-15T08:54:20.000</Modified>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.licensing\26.1.39\lib\net8.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+      <Modified>2024-06-24T08:03:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.maui.core\26.1.39\lib\net8.0-windows10.0.19041.0\Syncfusion.Maui.Core.dll">
+      <PackagePath>Syncfusion.Maui.Core.dll</PackagePath>
+      <Modified>2024-06-24T07:44:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\system.io.pipelines\8.0.0\lib\net8.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
       <Modified>2023-10-31T14:59:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\system.security.cryptography.protecteddata\4.7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll">
-      <PackagePath>System.Security.Cryptography.ProtectedData.dll</PackagePath>
-      <Modified>2019-11-15T08:53:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\system.security.permissions\4.7.0\lib\netcoreapp3.0\System.Security.Permissions.dll">
-      <PackagePath>System.Security.Permissions.dll</PackagePath>
-      <Modified>2019-11-15T08:56:44.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\system.windows.extensions\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll">
-      <PackagePath>System.Windows.Extensions.dll</PackagePath>
-      <Modified>2019-11-15T08:54:30.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\xamarin.essentials\1.8.1\lib\netstandard2.0\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
       <Modified>2023-12-15T12:23:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:12.000</Modified>
+      <Modified>2024-06-10T01:31:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ca\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\ca\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ca\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:12.000</Modified>
+      <Modified>2024-06-10T01:31:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\cs\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\cs\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>cs\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:42.000</Modified>
+      <Modified>2024-06-10T01:31:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\da\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\da\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>da\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:46.000</Modified>
+      <Modified>2024-06-10T01:31:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\de\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\de\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>de\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:06.000</Modified>
+      <Modified>2024-06-10T01:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\el\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\el\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>el\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:06.000</Modified>
+      <Modified>2024-06-10T01:31:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\es\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\es\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>es\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:40.000</Modified>
+      <Modified>2024-06-10T01:31:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\fi\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\fi\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>fi\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:12.000</Modified>
+      <Modified>2024-06-10T01:31:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\fr\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\fr\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>fr\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:46.000</Modified>
+      <Modified>2024-06-10T01:31:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\he\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\he\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>he\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:36.000</Modified>
+      <Modified>2024-06-10T01:31:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\hi\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\hi\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>hi\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:16.000</Modified>
+      <Modified>2024-06-10T01:31:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\hr\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\hr\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>hr\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:46.000</Modified>
+      <Modified>2024-06-10T01:31:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\hu\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\hu\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>hu\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:46.000</Modified>
+      <Modified>2024-06-10T01:30:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\id\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\id\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>id\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:46.000</Modified>
+      <Modified>2024-06-10T01:31:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\it\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\it\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>it\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:16.000</Modified>
+      <Modified>2024-06-10T01:31:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ja\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\ja\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ja\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:16.000</Modified>
+      <Modified>2024-06-10T01:31:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ko\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\ko\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ko\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:46.000</Modified>
+      <Modified>2024-06-10T01:31:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ms\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\ms\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ms\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:16.000</Modified>
+      <Modified>2024-06-10T01:31:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\nb\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\nb\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>nb\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:14.000</Modified>
+      <Modified>2024-06-10T01:31:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\nl\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\nl\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>nl\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:14.000</Modified>
+      <Modified>2024-06-10T01:31:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\pl\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\pl\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>pl\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:36.000</Modified>
+      <Modified>2024-06-10T01:31:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\pt-BR\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\pt-BR\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>pt-BR\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:44.000</Modified>
+      <Modified>2024-06-10T01:31:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\pt\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\pt\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>pt\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:14.000</Modified>
+      <Modified>2024-06-10T01:31:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ro\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\ro\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ro\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:36.000</Modified>
+      <Modified>2024-06-10T01:30:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\ru\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\ru\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ru\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:16.000</Modified>
+      <Modified>2024-06-10T01:31:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\sk\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\sk\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>sk\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:14.000</Modified>
+      <Modified>2024-06-10T01:31:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\sv\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\sv\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>sv\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:16.000</Modified>
+      <Modified>2024-06-10T01:31:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\th\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\th\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>th\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:14.000</Modified>
+      <Modified>2024-06-10T01:31:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\tr\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\tr\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>tr\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:44.000</Modified>
+      <Modified>2024-06-10T01:31:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\uk\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\uk\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>uk\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:44.000</Modified>
+      <Modified>2024-06-10T01:30:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\vi\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\vi\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>vi\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:14.000</Modified>
+      <Modified>2024-06-10T01:31:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\zh-HK\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\zh-HK\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>zh-HK\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:33:44.000</Modified>
+      <Modified>2024-06-10T01:31:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\zh-Hans\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\zh-Hans\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>zh-Hans\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:16.000</Modified>
+      <Modified>2024-06-10T01:30:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\zh-Hant\Microsoft.Maui.Controls.resources.dll">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\zh-Hant\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>zh-Hant\Microsoft.Maui.Controls.resources.dll</PackagePath>
-      <Modified>2024-04-18T23:34:12.000</Modified>
+      <Modified>2024-06-10T01:31:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.graphics.win2d\1.2.0\runtimes\win-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -797,41 +781,41 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-03-08T18:44:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\runtime.win-x64.runtime.native.system.data.sqlclient.sni\4.4.0\runtimes\win-x64\native\sni.dll">
-      <PackagePath>sni.dll</PackagePath>
-      <Modified>2017-07-12T11:24:22.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\stub.system.data.sqlite.core.netstandard\1.0.118\runtimes\win-x64\native\SQLite.Interop.dll">
-      <PackagePath>SQLite.Interop.dll</PackagePath>
-      <Modified>2023-06-10T20:57:54.000</Modified>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.8\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2024-02-05T21:13:26.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\bin\Debug\net8.0\RCL.dll">
       <PackagePath>RCL.dll</PackagePath>
-      <Modified>2024-06-20T09:18:42.660</Modified>
+      <Modified>2024-06-25T10:41:18.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\staticwebassets.development.json">
       <PackagePath>RCL.staticwebassets.runtime.json</PackagePath>
-      <Modified>2024-06-20T06:48:10.183</Modified>
+      <Modified>2024-06-24T11:29:28.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.compatibility\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.compatibility\8.0.60\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
-      <Modified>2024-04-18T23:21:08.000</Modified>
+      <Modified>2024-06-10T01:18:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.core\8.0.60\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
       <PackagePath>Microsoft.Maui.Controls.pri</PackagePath>
-      <Modified>2024-04-18T23:20:10.000</Modified>
+      <Modified>2024-06-10T01:17:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.core\8.0.21\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.core\8.0.60\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
-      <Modified>2024-04-18T23:19:32.000</Modified>
+      <Modified>2024-06-10T01:16:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\syncfusion.maui.core\26.1.39\lib\net8.0-windows10.0.19041.0\Syncfusion.Maui.Core.pri">
+      <PackagePath>Syncfusion.Maui.Core.pri</PackagePath>
+      <Modified>2024-06-24T07:44:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\Hybrid.styles.css">
       <PackagePath>wwwroot\Hybrid.styles.css</PackagePath>
-      <Modified>2024-06-13T14:12:04.549</Modified>
+      <Modified>2024-06-24T11:29:32.300</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\scopedcss\projectbundle\RCL.bundle.scp.css">
       <PackagePath>wwwroot\_content\RCL\RCL.bundle.scp.css</PackagePath>
-      <Modified>2024-06-13T14:12:03.896</Modified>
+      <Modified>2024-06-24T11:29:29.021</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

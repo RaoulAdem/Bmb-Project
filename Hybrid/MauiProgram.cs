@@ -18,7 +18,7 @@ namespace Hybrid
 
             builder.Services.AddMauiBlazorWebView();
 
-            builder.Services.AddSingleton<Db>();
+            builder.Services.AddSingleton<ApplicationDbContext>();
             builder.Services.AddSingleton<Auth>();
             builder.Services.AddSingleton<SharedPreferences>();
             builder.Services.AddSingleton<PlatformCheck>();

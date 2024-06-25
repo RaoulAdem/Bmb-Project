@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components;
+using Microsoft.EntityFrameworkCore;
 using MySqlConnector;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ namespace RCL
 {
     public class RegisterViewModel : INotifyPropertyChanged
     {
-        private readonly Db _db;
+        private readonly ApplicationDbContext _dbContext;
         private readonly SharedPreferences _sharedPreferences;
         private readonly NavigationManager _navigationManager;
         private User _data;
@@ -22,9 +23,9 @@ namespace RCL
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        public RegisterViewModel(Db db, SharedPreferences sharedPreferences, NavigationManager navigationManager)
+        public RegisterViewModel(ApplicationDbContext dbContext, SharedPreferences sharedPreferences, NavigationManager navigationManager)
         {
-            _db = db;
+            _dbContext = dbContext;
             _sharedPreferences = sharedPreferences;
             _navigationManager = navigationManager;
             _data = new User();
@@ -74,45 +75,41 @@ namespace RCL
 
         public async Task HandleAuth()
         {
-            if (!Auth.Check(_data.Username, _data.Password, _data.Email, _data.ConfirmPassword))
+            if (!Auth.Check(_data.Username, _data.Password, _data.Email, _data.Password)) //ConfirmPassword removed tmp
             {
-                _message = "wrongg";
+                _message = "Invalid input.";
                 return;
             }
-            using (var conn = new MySqlConnection(_db.GetConnection()))
+            try
             {
-                await conn.OpenAsync();
-                using (var cmd = new MySqlCommand("INSERT INTO users (Username, Password, Email, IsAdmin) VALUES (@username, @password, @email, @isadmin)", conn))
+                var existingUser = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username.ToLower() == _data.Username.ToLower());
+                if (existingUser != null)
                 {
-                    cmd.Parameters.AddWithValue("@username", _data.Username.ToLower());
-                    cmd.Parameters.AddWithValue("@password", _data.Password);
-                    cmd.Parameters.AddWithValue("@email", _data.Email);
-                    if (_isAdmin)
-                    {
-                        cmd.Parameters.AddWithValue("@isadmin", "pending");
-                    }
-                    else
-                    {
-                        cmd.Parameters.AddWithValue("@isadmin", "no");
-                    }
-                    var result = await cmd.ExecuteNonQueryAsync();
-                    if (result > 0)
-                    {
-                        if (_isAdmin)
-                        {
-                            _message = "Registration successful! \nA request has been sent to the admins. \nIn the meantime, please sign in to continue.";
-                        }
-                        else
-                        {
-                            _message = "Registration successful! \n Please sign in to continue.";
-                        }
-                    }
-                    else
-                    {
-                        _message = "Registration failed!";
-                    }
+                    _message = "Username already exists. Please choose a different username.";
+                    return;
                 }
-                await conn.CloseAsync();
+                var newUser = new User
+                {
+                    Username = _data.Username.ToLower(),
+                    Password = _data.Password,
+                    Email = _data.Email,
+                    isAdmin = _isAdmin ? "pending" : "no",
+                    Profile = string.Empty
+                };
+                _dbContext.Users.Add(newUser);
+                await _dbContext.SaveChangesAsync();
+                if (_isAdmin)
+                {
+                    _message = "Registration successful! A request has been sent to the admins. Please sign in to continue.";
+                }
+                else
+                {
+                    _message = "Registration successful! Please sign in to continue.";
+                }
+            }
+            catch (Exception ex)
+            {
+                _message = $"Registration failed: {ex.Message}";
             }
         }
 

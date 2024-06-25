@@ -1,5 +1,5 @@
 ﻿@page "/register"
-@inject Db Db
+@inject ApplicationDbContext ApplicationDbContext
 @inject SharedPreferences SharedPreferences
 @inject NavigationManager NavigationManager
 
@@ -8,7 +8,7 @@
 
     protected override void OnInitialized()
     {
-        viewModel = new RegisterViewModel(Db, SharedPreferences, NavigationManager);
+        viewModel = new RegisterViewModel(ApplicationDbContext, SharedPreferences, NavigationManager);
     }
 }
 
@@ -42,10 +42,11 @@ else
             <label>Password:</label>
             <InputText placeholder="Enter password" @bind-Value="viewModel.Data.Password" type="password" required />
         </div>
+        <!--
         <div style="display: flex; flex-direction: column; align-items: center;">
             <label>Confirm password:</label>
             <InputText placeholder="Confirm password" @bind-Value="viewModel.Data.ConfirmPassword" type="password" required />
-        </div>
+        </div>-->
         <div>
             <label class="switch">
                 <input type="checkbox" @onclick="viewModel.IsAdmin">

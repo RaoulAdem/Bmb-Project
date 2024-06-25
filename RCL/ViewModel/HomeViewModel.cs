@@ -3,13 +3,14 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
+using Microsoft.EntityFrameworkCore;
 using MySqlConnector;
 
 namespace RCL
 {
     public class HomeViewModel : INotifyPropertyChanged
     {
-        private readonly Db _db;
+        private readonly ApplicationDbContext _dbContext;
         private readonly SharedPreferences _sharedPreferences;
         private readonly NavigationManager _navigationManager;
         private User _data;
@@ -17,9 +18,9 @@ namespace RCL
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        public HomeViewModel(Db db, SharedPreferences sharedPreferences, NavigationManager navigationManager)
+        public HomeViewModel(ApplicationDbContext dbContext, SharedPreferences sharedPreferences, NavigationManager navigationManager)
         {
-            _db = db;
+            _dbContext = dbContext;
             _sharedPreferences = sharedPreferences;
             _navigationManager = navigationManager;
             _data = new User();
@@ -50,41 +51,24 @@ namespace RCL
 
         public async Task HandleAuth()
         {
-            using (var conn = new MySqlConnection(_db.GetConnection()))
+            var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username.ToLower() == _data.Username.ToLower() && u.Password == _data.Password);
+            if (user != null)
             {
-                await conn.OpenAsync();
-                using (var cmd = new MySqlCommand("SELECT COUNT(*) FROM users WHERE Username=@username AND Password=@password", conn))
+                _sharedPreferences.Id = user.Username.ToLower();
+                if (user.isAdmin == "yes")
                 {
-                    cmd.Parameters.AddWithValue("@username", _data.Username.ToLower());
-                    cmd.Parameters.AddWithValue("@password", _data.Password);
-                    var count = Convert.ToInt32(await cmd.ExecuteScalarAsync());
-                    if (count > 0)
-                    {
-                        _sharedPreferences.Id = _data.Username.ToLower();
-                        _navigationManager.NavigateTo("/profile");
-                    }
-                    else
-                    {
-                        _message = "Wrong username or password!";
-                        return;
-                    }
+                    _sharedPreferences.IsAdmin = true;
+                    _navigationManager.NavigateTo("/admin");
                 }
-                using (var cmd = new MySqlCommand("SELECT IsAdmin FROM users WHERE Username=@username", conn))
+                else
                 {
-                    cmd.Parameters.AddWithValue("@username", _data.Username.ToLower());
-                    var result = await cmd.ExecuteScalarAsync() as string;
-                    if (result == "yes")
-                    {
-                        _sharedPreferences.IsAdmin = true;
-                        _navigationManager.NavigateTo("/admin");
-                    }
-                    else
-                    {
-                        _sharedPreferences.IsAdmin = false;
-                        _navigationManager.NavigateTo("/profile");
-                    }
+                    _sharedPreferences.IsAdmin = false;
+                    _navigationManager.NavigateTo("/profile");
                 }
-                await conn.CloseAsync();
+            }
+            else
+            {
+                _message = "Wrong username or password!";
             }
         }
 

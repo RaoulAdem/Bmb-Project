@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components;
+using Microsoft.EntityFrameworkCore;
 using MySqlConnector;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace RCL
 {
     public class AdminViewModel : INotifyPropertyChanged
     {
-        private readonly Db _db;
+        private readonly ApplicationDbContext _dbContext;
         private readonly SharedPreferences _sharedPreferences;
         private readonly NavigationManager _navigationManager;
         private List<User> _data;
@@ -21,9 +22,9 @@ namespace RCL
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        public AdminViewModel(Db db, SharedPreferences sharedPreferences, NavigationManager navigationManager)
+        public AdminViewModel(ApplicationDbContext dbContext, SharedPreferences sharedPreferences, NavigationManager navigationManager)
         {
-            _db = db;
+            _dbContext = dbContext;
             _sharedPreferences = sharedPreferences;
             _navigationManager = navigationManager;
             _data = new List<User>();
@@ -54,74 +55,51 @@ namespace RCL
 
         public async Task LoadProfileDataAsync()
         {
-            Data = await _db.GetDataAsync();
+            Data = await _dbContext.Users.ToListAsync();
         }
 
         public async Task DeleteUser(string username)
         {
-            if (username == _sharedPreferences.Id)
+            var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == username);
+            if (user == null)
             {
-                _message = "You cannot delete yourself!";
+                Message = $"User '{username}' not found.";
                 return;
             }
-            using (var conn = new MySqlConnection(_db.GetConnection()))
+            if (user.Username == _sharedPreferences.Id)
             {
-                await conn.OpenAsync();
-                using (var cmd = new MySqlCommand("SELECT IsAdmin FROM users WHERE Username=@username", conn))
-                {
-                    cmd.Parameters.AddWithValue("@username", username);
-                    var result = await cmd.ExecuteScalarAsync() as string;
-                    if (result == "yes")
-                    {
-                        _message = "You cannot delete an admin!";
-                        await conn.CloseAsync();
-                        return;
-                    }
-                }
-                using (var cmd = new MySqlCommand("DELETE FROM users WHERE Username=@username", conn))
-                {
-                    cmd.Parameters.AddWithValue("@username", username);
-                    var result = await cmd.ExecuteNonQueryAsync();
-                    if (result > 0)
-                    {
-                        _message = $"User '{username}' deleted successfully.";
-                        _data = await _db.GetDataAsync(); //refresh
-                    }
-                    else
-                    {
-                        _message = "Something went wrong...";
-                    }
-                }
-                await conn.CloseAsync();
+                Message = "You cannot delete yourself!";
+                return;
             }
+            if (user.isAdmin == "yes")
+            {
+                Message = "You cannot delete an admin!";
+                return;
+            }
+            _dbContext.Users.Remove(user);
+            await _dbContext.SaveChangesAsync();
+            Message = $"User '{username}' deleted successfully.";
+            await LoadProfileDataAsync(); //refresh data
         }
 
         public async Task AdminUser(string username)
         {
-            if (username == _sharedPreferences.Id)
+            var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == username);
+            if (user == null)
             {
-                _message = "You are already an admin!";
+                Message = $"User '{username}' not found.";
                 return;
             }
-            using (var conn = new MySqlConnection(_db.GetConnection()))
+            if (user.Username == _sharedPreferences.Id)
             {
-                await conn.OpenAsync();
-                using (var cmd = new MySqlCommand("UPDATE users SET IsAdmin='yes' WHERE Username=@username", conn))
-                {
-                    cmd.Parameters.AddWithValue("@username", username);
-                    var result = await cmd.ExecuteNonQueryAsync();
-                    if (result > 0)
-                    {
-                        _message = $"User '{username}' has been promoted successfully.";
-                        _data = await _db.GetDataAsync(); //refresh
-                    }
-                    else
-                    {
-                        _message = "Something went wrong...";
-                    }
-                }
-                await conn.CloseAsync();
+                Message = "You are already an admin!";
+                return;
             }
+            user.isAdmin = "yes";
+            _dbContext.Users.Update(user);
+            await _dbContext.SaveChangesAsync();
+            Message = $"User '{username}' has been promoted successfully.";
+            await LoadProfileDataAsync(); //refresh data
         }
 
         public void SignIn()

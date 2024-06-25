@@ -14,7 +14,9 @@
           "Microsoft.Maui.Controls": "8.0.60",
           "Microsoft.Maui.Controls.Compatibility": "8.0.60",
           "MySqlConnector": "2.3.7",
+          "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
           "RCL": "1.0.0",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.31"
         },
@@ -147,6 +149,18 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/8.0.6": {},
+      "Microsoft.EntityFrameworkCore.Relational/8.0.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.6",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "8.0.2.0",
+            "fileVersion": "8.0.224.6803"
+          }
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0"
@@ -694,6 +708,18 @@
           }
         }
       },
+      "Pomelo.EntityFrameworkCore.MySql/8.0.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
+          "MySqlConnector": "2.3.7"
+        },
+        "runtime": {
+          "lib/net8.0/Pomelo.EntityFrameworkCore.MySql.dll": {
+            "assemblyVersion": "8.0.2.0",
+            "fileVersion": "8.0.2.0"
+          }
+        }
+      },
       "sqlite-net-pcl/1.9.172": {
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.8"
@@ -746,6 +772,25 @@
           }
         }
       },
+      "Syncfusion.Licensing/26.1.39": {
+        "runtime": {
+          "lib/net8.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "26.1.39.0",
+            "fileVersion": "26.1.39.0"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/26.1.39": {
+        "dependencies": {
+          "Syncfusion.Licensing": "26.1.39"
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll": {
+            "assemblyVersion": "26.1.39.0",
+            "fileVersion": "26.1.39.0"
+          }
+        }
+      },
       "System.IO.Pipelines/8.0.0": {
         "runtime": {
           "lib/net8.0/System.IO.Pipelines.dll": {
@@ -760,14 +805,6 @@
       "System.Text.Json/8.0.0": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
-        }
-      },
-      "Xam.Plugin.Media/6.0.2": {
-        "runtime": {
-          "lib/net6.0-windows10.0.19041/Plugin.Media.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
         }
       },
       "Xamarin.Essentials/1.8.1": {
@@ -786,8 +823,9 @@
           "Microsoft.AspNetCore.Components.Web": "8.0.6",
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "MySqlConnector": "2.3.7",
+          "Pomelo.EntityFrameworkCore.MySql": "8.0.2",
           "SQLitePCLRaw.bundle_green": "2.1.8",
-          "Xam.Plugin.Media": "6.0.2",
+          "Syncfusion.Maui.Core": "26.1.39",
           "Xamarin.Essentials": "1.8.1",
           "sqlite-net-pcl": "1.9.172"
         },
@@ -884,6 +922,13 @@
       "sha512": "sha512-fDNtuQ4lAaPaCOlsrwUck/GvnF4QLeDpMmE1L5QtxZpMSmWfnL2/vk8sDL9OVTWcfprooI9V5MNpIx3/Tq5ehg==",
       "path": "microsoft.entityframeworkcore.analyzers/8.0.6",
       "hashPath": "microsoft.entityframeworkcore.analyzers.8.0.6.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NoGfcq2OPw0z8XAPf74YFwGlTKjedWdsIEJqq4SvKcPjcu+B+/XDDNrDRxTvILfz4Ug8POSF49s1jz1JvUqTAg==",
+      "path": "microsoft.entityframeworkcore.relational/8.0.2",
+      "hashPath": "microsoft.entityframeworkcore.relational.8.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/8.0.0": {
       "type": "package",
@@ -1123,6 +1168,13 @@
       "path": "mysqlconnector/2.3.7",
       "hashPath": "mysqlconnector.2.3.7.nupkg.sha512"
     },
+    "Pomelo.EntityFrameworkCore.MySql/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XjnlcxVBLnEMbyEc5cZzgZeDyLvAniACZQ04W1slWN0f4rmfNzl98gEMvHnFH0fMDF06z9MmgGi/Sr7hJ+BVnw==",
+      "path": "pomelo.entityframeworkcore.mysql/8.0.2",
+      "hashPath": "pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512"
+    },
     "sqlite-net-pcl/1.9.172": {
       "type": "package",
       "serviceable": true,
@@ -1158,6 +1210,20 @@
       "path": "sqlitepclraw.provider.e_sqlite3/2.1.8",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.2.1.8.nupkg.sha512"
     },
+    "Syncfusion.Licensing/26.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UszHYIDFw/+venT3oEGlFD+1gwTTyqUO054QvJY4GTiKAnqetMU81bFSEeJmWOExKS9V/Yo0PTOayK+kcYJjqw==",
+      "path": "syncfusion.licensing/26.1.39",
+      "hashPath": "syncfusion.licensing.26.1.39.nupkg.sha512"
+    },
+    "Syncfusion.Maui.Core/26.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yc0xrjErNQJvqy/kRRza1XOv548wj6VEL8YwXpWh9rAwLJ2J99JGWBQa9wNxGSRupTAinjEefbVQvaazo4YfMw==",
+      "path": "syncfusion.maui.core/26.1.39",
+      "hashPath": "syncfusion.maui.core.26.1.39.nupkg.sha512"
+    },
     "System.IO.Pipelines/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1192,13 +1258,6 @@
       "sha512": "sha512-OdrZO2WjkiEG6ajEFRABTRCi/wuXQPxeV6g8xvUJqdxMvvuCCEk86zPla8UiIQJz3durtUEbNyY/3lIhS0yZvQ==",
       "path": "system.text.json/8.0.0",
       "hashPath": "system.text.json.8.0.0.nupkg.sha512"
-    },
-    "Xam.Plugin.Media/6.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-QLl5CXxSDF92+E154djfDKOoPSjvGkQSxYmLY0Fitnb6P4B103JQDU7lZlH0ez67GtzZDa8kWvS0Go0Yv1w9og==",
-      "path": "xam.plugin.media/6.0.2",
-      "hashPath": "xam.plugin.media.6.0.2.nupkg.sha512"
     },
     "Xamarin.Essentials/1.8.1": {
       "type": "package",
