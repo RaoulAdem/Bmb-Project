@@ -15,6 +15,7 @@ namespace RCL
     public class AdminViewModel : INotifyPropertyChanged
     {
         private readonly ApplicationDbContext _dbContext;
+        private readonly LocalDb _db;
         private readonly SharedPreferences _sharedPreferences;
         private readonly NavigationManager _navigationManager;
         private List<User> _data;
@@ -22,9 +23,10 @@ namespace RCL
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        public AdminViewModel(ApplicationDbContext dbContext, SharedPreferences sharedPreferences, NavigationManager navigationManager)
+        public AdminViewModel(ApplicationDbContext dbContext, LocalDb db, SharedPreferences sharedPreferences, NavigationManager navigationManager)
         {
             _dbContext = dbContext;
+            _db = db;
             _sharedPreferences = sharedPreferences;
             _navigationManager = navigationManager;
             _data = new List<User>();
@@ -55,12 +57,26 @@ namespace RCL
 
         public async Task LoadProfileDataAsync()
         {
-            Data = await _dbContext.Users.ToListAsync();
+            if (PlatformCheck.IsAndroid())
+            {
+                Data = await _db.Users.ToListAsync();
+            }
+            else
+            {
+                Data = await _dbContext.Users.ToListAsync();
+            }
         }
 
         public async Task DeleteUser(string username)
         {
-            var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == username);
+            User user;
+            if (PlatformCheck.IsAndroid())
+            {
+                user = await _db.Users.FirstOrDefaultAsync(u => u.Username == username);
+            } else
+            {
+                user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == username);
+            }
             if (user == null)
             {
                 Message = $"User '{username}' not found.";
@@ -76,15 +92,29 @@ namespace RCL
                 Message = "You cannot delete an admin!";
                 return;
             }
-            _dbContext.Users.Remove(user);
-            await _dbContext.SaveChangesAsync();
+            if (PlatformCheck.IsAndroid())
+            {
+                _db.Users.Remove(user);
+                await _db.SaveChangesAsync();
+            } else
+            {
+                _dbContext.Users.Remove(user);
+                await _dbContext.SaveChangesAsync();
+            }
             Message = $"User '{username}' deleted successfully.";
             await LoadProfileDataAsync(); //refresh data
         }
 
         public async Task AdminUser(string username)
         {
-            var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == username);
+            User user;
+            if (PlatformCheck.IsAndroid())
+            {
+                user = await _db.Users.FirstOrDefaultAsync(u => u.Username == username);
+            } else
+            {
+                user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == username);
+            }
             if (user == null)
             {
                 Message = $"User '{username}' not found.";
@@ -96,8 +126,15 @@ namespace RCL
                 return;
             }
             user.isAdmin = "yes";
-            _dbContext.Users.Update(user);
-            await _dbContext.SaveChangesAsync();
+            if (PlatformCheck.IsAndroid())
+            {
+                _db.Users.Update(user);
+                await _db.SaveChangesAsync();
+            } else
+            {
+                _dbContext.Users.Update(user);
+                await _dbContext.SaveChangesAsync();
+            }
             Message = $"User '{username}' has been promoted successfully.";
             await LoadProfileDataAsync(); //refresh data
         }

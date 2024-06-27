@@ -1,6 +1,7 @@
 ﻿@page "/profile"
 @using Xamarin.Essentials
 @inject ApplicationDbContext ApplicationDbContext
+@inject LocalDb LocalDb
 @inject SharedPreferences SharedPreferences
 @inject NavigationManager NavigationManager
 
@@ -9,7 +10,7 @@
 
     protected async override void OnInitialized()
     {
-        viewModel = new ProfileViewModel(ApplicationDbContext, SharedPreferences, NavigationManager);
+        viewModel = new ProfileViewModel(ApplicationDbContext, LocalDb, SharedPreferences, NavigationManager);
         await viewModel.LoadProfileDataAsync(); //load data
         StateHasChanged(); //update UI
     }
@@ -25,13 +26,7 @@
     <div>
         <p>You must log in.</p>
         <button @onclick="viewModel.SignIn">Sign in</button>
-        <!--
-        <button @onclick="viewModel.HandleFileSelectedAndroid">Pick a picture</button>
-        <button @onclick="viewModel.HandlePhotoTakeAndroid">Take a photo</button>
         <img src="@Path.Combine(FileSystem.AppDataDirectory,"Profiles/raoul/1000072495.jpg")" />
-        <p>@Path.Combine(FileSystem.AppDataDirectory, "Profiles/raoul/1000072495.jpg")</p>
-        <p role="status">@viewModel.Message</p>
-        --->
     </div>
 }
 else
@@ -60,11 +55,12 @@ else
             <label>Admin:</label>
             <p style="display: inline;">@viewModel.Data.isAdmin</p>
             <br />
-            <label>Profile photo:</label>
+            <label>Profile:</label>
+            <br />
             @if (PlatformCheck.IsAndroid())
             {
-                <button @onclick="viewModel.HandleFileSelectedAndroid">Pick a picture</button>
-                <button @onclick="viewModel.HandlePhotoTakeAndroid">Take a photo</button>
+                <button @onclick="viewModel.HandleFileSelectedAndroid" >Pick a picture</button>
+                <button @onclick="viewModel.HandlePhotoTakeAndroid" >Take a photo</button>
             } else
             {
                 <InputFile OnChange="viewModel.HandleFileSelected" />

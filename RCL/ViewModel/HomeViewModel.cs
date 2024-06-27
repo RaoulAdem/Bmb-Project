@@ -11,6 +11,7 @@ namespace RCL
     public class HomeViewModel : INotifyPropertyChanged
     {
         private readonly ApplicationDbContext _dbContext;
+        private readonly LocalDb _db;
         private readonly SharedPreferences _sharedPreferences;
         private readonly NavigationManager _navigationManager;
         private User _data;
@@ -18,9 +19,10 @@ namespace RCL
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        public HomeViewModel(ApplicationDbContext dbContext, SharedPreferences sharedPreferences, NavigationManager navigationManager)
+        public HomeViewModel(ApplicationDbContext dbContext, LocalDb db, SharedPreferences sharedPreferences, NavigationManager navigationManager)
         {
             _dbContext = dbContext;
+            _db = db;
             _sharedPreferences = sharedPreferences;
             _navigationManager = navigationManager;
             _data = new User();
@@ -51,7 +53,14 @@ namespace RCL
 
         public async Task HandleAuth()
         {
-            var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username.ToLower() == _data.Username.ToLower() && u.Password == _data.Password);
+            User user;
+            if (PlatformCheck.IsAndroid())
+            {
+                user = await _db.Users.FirstOrDefaultAsync(u => u.Username.ToLower() == _data.Username.ToLower() && u.Password == _data.Password);
+            } else
+            {
+                user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username.ToLower() == _data.Username.ToLower() && u.Password == _data.Password);
+            }
             if (user != null)
             {
                 _sharedPreferences.Id = user.Username.ToLower();

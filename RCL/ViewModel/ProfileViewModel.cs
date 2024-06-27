@@ -13,6 +13,7 @@ namespace RCL
     public class ProfileViewModel : INotifyPropertyChanged
     {
         private readonly ApplicationDbContext _dbContext;
+        private readonly LocalDb _db;
         private readonly SharedPreferences _sharedPreferences;
         private readonly NavigationManager _navigationManager;
         private User _data;
@@ -24,9 +25,10 @@ namespace RCL
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        public ProfileViewModel(ApplicationDbContext dbContext, SharedPreferences sharedPreferences, NavigationManager navigationManager)
+        public ProfileViewModel(ApplicationDbContext dbContext, LocalDb db, SharedPreferences sharedPreferences, NavigationManager navigationManager)
         {
             _dbContext = dbContext;
+            _db = db;
             _sharedPreferences = sharedPreferences;
             _navigationManager = navigationManager;
             _profilePath = string.Empty;
@@ -66,7 +68,13 @@ namespace RCL
         //OnInitializedAsync()
         public async Task LoadProfileDataAsync()
         {
-            Data = await _dbContext.GetProfileDataAsync(_sharedPreferences.Id);
+            if (PlatformCheck.IsAndroid())
+            {
+                Data = await _db.GetProfileDataAsync(_sharedPreferences.Id);
+            } else
+            {
+                Data = await _dbContext.GetProfileDataAsync(_sharedPreferences.Id);
+            }
         }
 
         public void ManageDirectory(string directory)
@@ -153,14 +161,30 @@ namespace RCL
             }
             try
             {
-                var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == _sharedPreferences.Id);
+                User user;
+                if (PlatformCheck.IsAndroid())
+                {
+                    user = await _db.Users.FirstOrDefaultAsync(u => u.Username == _sharedPreferences.Id);
+                } else
+                {
+                    user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == _sharedPreferences.Id);
+                }
                 if (user != null)
                 {
                     user.Profile = ProfilePath;
-                    _dbContext.Users.Update(user);
-                    await _dbContext.SaveChangesAsync();
+                    if (PlatformCheck.IsAndroid())
+                    {
+                        _db.Users.Update(user);
+                        await _db.SaveChangesAsync();
+                        _data = await _db.Users.FirstOrDefaultAsync(u => u.Username == _sharedPreferences.Id);
+
+                    } else
+                    {
+                        _dbContext.Users.Update(user);
+                        await _dbContext.SaveChangesAsync();
+                        _data = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == _sharedPreferences.Id);
+                    }
                     Message = "Profile updated successfully!";
-                    _data = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == _sharedPreferences.Id);
                 }
                 else
                 {

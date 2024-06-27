@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-25T10:41:23.576</Modified>
+      <Modified>2024-06-27T06:47:58.520</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Hybrid.dll">
       <PackagePath>Hybrid.dll</PackagePath>
-      <Modified>2024-06-25T10:41:23.257</Modified>
+      <Modified>2024-06-27T06:47:56.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Hybrid.exe</PackagePath>
-      <Modified>2024-06-25T10:41:23.292</Modified>
+      <Modified>2024-06-27T06:47:56.226</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\Hybrid\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -787,7 +787,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\bin\Debug\net8.0\RCL.dll">
       <PackagePath>RCL.dll</PackagePath>
-      <Modified>2024-06-25T10:41:18.976</Modified>
+      <Modified>2024-06-27T06:46:57.731</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\Desktop\BMB\Hybrid MVVM\RCL\obj\Debug\net8.0\staticwebassets.development.json">
       <PackagePath>RCL.staticwebassets.runtime.json</PackagePath>

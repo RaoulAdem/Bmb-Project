@@ -1,5 +1,6 @@
 ﻿@page "/register"
 @inject ApplicationDbContext ApplicationDbContext
+@inject LocalDb LocalDb
 @inject SharedPreferences SharedPreferences
 @inject NavigationManager NavigationManager
 
@@ -8,7 +9,7 @@
 
     protected override void OnInitialized()
     {
-        viewModel = new RegisterViewModel(ApplicationDbContext, SharedPreferences, NavigationManager);
+        viewModel = new RegisterViewModel(ApplicationDbContext, LocalDb, SharedPreferences, NavigationManager);
     }
 }
 

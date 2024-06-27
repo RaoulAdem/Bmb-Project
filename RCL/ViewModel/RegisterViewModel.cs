@@ -8,12 +8,14 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 
 namespace RCL
 {
     public class RegisterViewModel : INotifyPropertyChanged
     {
         private readonly ApplicationDbContext _dbContext;
+        private readonly LocalDb _db;
         private readonly SharedPreferences _sharedPreferences;
         private readonly NavigationManager _navigationManager;
         private User _data;
@@ -23,9 +25,10 @@ namespace RCL
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        public RegisterViewModel(ApplicationDbContext dbContext, SharedPreferences sharedPreferences, NavigationManager navigationManager)
+        public RegisterViewModel(ApplicationDbContext dbContext, LocalDb db, SharedPreferences sharedPreferences, NavigationManager navigationManager)
         {
             _dbContext = dbContext;
+            _db = db;
             _sharedPreferences = sharedPreferences;
             _navigationManager = navigationManager;
             _data = new User();
@@ -82,7 +85,14 @@ namespace RCL
             }
             try
             {
-                var existingUser = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username.ToLower() == _data.Username.ToLower());
+                User existingUser;
+                if (PlatformCheck.IsAndroid())
+                {
+                    existingUser = await _db.Users.FirstOrDefaultAsync(u => u.Username.ToLower() == _data.Username.ToLower());
+                } else
+                {
+                    existingUser = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username.ToLower() == _data.Username.ToLower());
+                }
                 if (existingUser != null)
                 {
                     _message = "Username already exists. Please choose a different username.";
@@ -96,8 +106,15 @@ namespace RCL
                     isAdmin = _isAdmin ? "pending" : "no",
                     Profile = string.Empty
                 };
-                _dbContext.Users.Add(newUser);
-                await _dbContext.SaveChangesAsync();
+                if (PlatformCheck.IsAndroid())
+                {
+                    _db.Users.Add(newUser);
+                    await _db.SaveChangesAsync();
+                } else
+                {
+                    _dbContext.Users.Add(newUser);
+                    await _dbContext.SaveChangesAsync();
+                }
                 if (_isAdmin)
                 {
                     _message = "Registration successful! A request has been sent to the admins. Please sign in to continue.";

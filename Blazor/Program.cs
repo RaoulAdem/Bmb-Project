@@ -9,6 +9,7 @@ builder.Services.AddSingleton<RCL.ApplicationDbContext>();
 builder.Services.AddSingleton<RCL.Auth>();
 builder.Services.AddSingleton<RCL.SharedPreferences>();
 builder.Services.AddSingleton<RCL.PlatformCheck>();
+builder.Services.AddSingleton<RCL.LocalDb>();
 
 var app = builder.Build();
 

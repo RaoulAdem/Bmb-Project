@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
 using RCL;
 using System;
 
@@ -22,12 +23,23 @@ namespace Hybrid
             builder.Services.AddSingleton<Auth>();
             builder.Services.AddSingleton<SharedPreferences>();
             builder.Services.AddSingleton<PlatformCheck>();
+            string dbPath = Path.Combine(FileSystem.AppDataDirectory, "localdb.db");
+            builder.Services.AddDbContext<LocalDb>(options =>
+                options.UseSqlite($"Data Source={dbPath}"));
 
 #if DEBUG
             builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
-            return builder.Build();
+            //initialize the database
+            var app = builder.Build();
+            using (var scope = app.Services.CreateScope())
+            {
+                var context = scope.ServiceProvider.GetRequiredService<LocalDb>();
+                LocalDb.Initialize(context);
+            }
+
+            return app;
         }
     }
 }
