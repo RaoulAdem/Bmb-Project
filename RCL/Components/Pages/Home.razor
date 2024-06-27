@@ -1,5 +1,4 @@
 ﻿@page "/"
-@using Xamarin.Essentials
 @inject ApplicationDbContext ApplicationDbContext
 @inject LocalDb LocalDb
 @inject SharedPreferences SharedPreferences
@@ -47,7 +46,6 @@ else
         <div>
             <p role="status">@viewModel.Message</p>
             <button type="submit">Log in</button>
-            <p>@FileSystem.AppDataDirectory</p>
         </div>
     </EditForm>
 

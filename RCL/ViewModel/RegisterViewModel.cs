@@ -78,7 +78,7 @@ namespace RCL
 
         public async Task HandleAuth()
         {
-            if (!Auth.Check(_data.Username, _data.Password, _data.Email, _data.Password)) //ConfirmPassword removed tmp
+            if (!Auth.Check(username: _data.Username, password: _data.Password, email: _data.Email, confpassword: _data.Password)) //ConfirmPassword removed tmp
             {
                 _message = "Invalid input.";
                 return;
@@ -86,12 +86,12 @@ namespace RCL
             try
             {
                 User existingUser;
-                if (PlatformCheck.IsAndroid())
+                if (DeviceInfo.Platform == DevicePlatform.Android)
                 {
-                    existingUser = await _db.Users.FirstOrDefaultAsync(u => u.Username.ToLower() == _data.Username.ToLower());
+                    existingUser = await _db.GetProfileDataAsync(_data.Username);
                 } else
                 {
-                    existingUser = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username.ToLower() == _data.Username.ToLower());
+                    existingUser = await _dbContext.GetProfileDataAsync(_data.Username);
                 }
                 if (existingUser != null)
                 {
@@ -106,7 +106,7 @@ namespace RCL
                     isAdmin = _isAdmin ? "pending" : "no",
                     Profile = string.Empty
                 };
-                if (PlatformCheck.IsAndroid())
+                if (_sharedPreferences.IsAndroid)
                 {
                     _db.Users.Add(newUser);
                     await _db.SaveChangesAsync();
@@ -149,7 +149,7 @@ namespace RCL
             OnPropertyChanged(nameof(IsLoggedIn)); //refresh page
         }
 
-        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        protected void OnPropertyChanged([CallerMemberName] string? propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }

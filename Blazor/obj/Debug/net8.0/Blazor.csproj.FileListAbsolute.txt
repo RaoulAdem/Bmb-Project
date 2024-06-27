@@ -61,7 +61,6 @@ C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\Microsoft.Extensio
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\Microsoft.JSInterop.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\MySqlConnector.dll
-C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\SQLite-net.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\SQLitePCLRaw.core.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
@@ -73,7 +72,6 @@ C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\runtimes\linux-arm
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
-C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
@@ -114,3 +112,6 @@ C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\Syncfusion.Licensi
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\Syncfusion.Maui.Core.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\User\Desktop\BMB\Hybrid MVVM\Blazor\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll

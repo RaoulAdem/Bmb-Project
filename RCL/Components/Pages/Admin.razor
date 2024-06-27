@@ -54,7 +54,7 @@
                     @foreach (var item in viewModel.Data)
                     {
                         <tr>
-                            @if (item.Profile != null)
+                            @if (!string.IsNullOrEmpty(item.Profile))
                             {
                                 <td>
                                     <img src=@item.Profile class="profile" />

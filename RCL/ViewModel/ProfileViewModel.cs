@@ -17,7 +17,7 @@ namespace RCL
         private readonly SharedPreferences _sharedPreferences;
         private readonly NavigationManager _navigationManager;
         private User _data;
-        private IBrowserFile _file;
+        private IBrowserFile? _file;
         private string _profilePath;
         private string _message;
         private string uploadDirectory = $"C:/Users/User/Desktop/BMB/Hybrid MVVM/RCL/wwwroot/Images/Profiles/";
@@ -44,7 +44,7 @@ namespace RCL
                 OnPropertyChanged();
             }
         }
-        public string ProfilePath
+        public string? ProfilePath
         {
             get => _profilePath;
             set
@@ -68,7 +68,7 @@ namespace RCL
         //OnInitializedAsync()
         public async Task LoadProfileDataAsync()
         {
-            if (PlatformCheck.IsAndroid())
+            if (_sharedPreferences.IsAndroid)
             {
                 Data = await _db.GetProfileDataAsync(_sharedPreferences.Id);
             } else
@@ -102,7 +102,7 @@ namespace RCL
                     Message = "Image ready, press upload.\n" + localFilePath;
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 Message = "Please pick a photo.";
             }
@@ -124,7 +124,7 @@ namespace RCL
                     Message = "Image ready, press upload.\n" + localFilePath;
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 Message = "Error...";
             }
@@ -162,27 +162,27 @@ namespace RCL
             try
             {
                 User user;
-                if (PlatformCheck.IsAndroid())
+                if (_sharedPreferences.IsAndroid)
                 {
-                    user = await _db.Users.FirstOrDefaultAsync(u => u.Username == _sharedPreferences.Id);
+                    user = await _db.GetProfileDataAsync(_sharedPreferences.Id);
                 } else
                 {
-                    user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == _sharedPreferences.Id);
+                    user = await _dbContext.GetProfileDataAsync(_sharedPreferences.Id);
                 }
                 if (user != null)
                 {
                     user.Profile = ProfilePath;
-                    if (PlatformCheck.IsAndroid())
+                    if (_sharedPreferences.IsAndroid)
                     {
                         _db.Users.Update(user);
                         await _db.SaveChangesAsync();
-                        _data = await _db.Users.FirstOrDefaultAsync(u => u.Username == _sharedPreferences.Id);
+                        _data = await _db.GetProfileDataAsync(_sharedPreferences.Id);
 
                     } else
                     {
                         _dbContext.Users.Update(user);
                         await _dbContext.SaveChangesAsync();
-                        _data = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == _sharedPreferences.Id);
+                        _data = await _dbContext.GetProfileDataAsync(_sharedPreferences.Id);
                     }
                     Message = "Profile updated successfully!";
                 }

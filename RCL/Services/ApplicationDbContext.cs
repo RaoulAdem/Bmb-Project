@@ -19,16 +19,19 @@ namespace RCL
 
         private string GetConnectionString()
         {
-            if (PlatformCheck.IsAndroid())
-            {
-                return "server=10.0.2.2;port=3306;database=bmb_app;user=root";
-            }
             return "server=localhost;port=3306;database=bmb_app;user=root";
         }
 
+        //check if user exist using 'username' & 'password'
+        public async Task<User> GetUserAsync(string username, string password)
+        {
+            return await Users.FirstOrDefaultAsync(u => u.Username == username.ToLower() && u.Password == password);
+        }
+
+        //get all the information of user using 'username'
         public async Task<User> GetProfileDataAsync(string username)
         {
-            return await Users.FirstOrDefaultAsync(u => u.Username == username);
+            return await Users.FirstOrDefaultAsync(u => u.Username == username.ToLower());
         }
     }
 }

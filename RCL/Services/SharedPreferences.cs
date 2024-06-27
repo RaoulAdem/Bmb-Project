@@ -10,5 +10,6 @@ namespace RCL
     {
         public required string Id { get; set; }
         public required bool IsAdmin { get; set; }
+        public required bool IsAndroid { get; set; } = false;
     }
 }

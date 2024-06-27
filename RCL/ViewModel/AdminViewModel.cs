@@ -57,7 +57,7 @@ namespace RCL
 
         public async Task LoadProfileDataAsync()
         {
-            if (PlatformCheck.IsAndroid())
+            if (_sharedPreferences.IsAndroid)
             {
                 Data = await _db.Users.ToListAsync();
             }
@@ -70,12 +70,12 @@ namespace RCL
         public async Task DeleteUser(string username)
         {
             User user;
-            if (PlatformCheck.IsAndroid())
+            if (_sharedPreferences.IsAndroid)
             {
-                user = await _db.Users.FirstOrDefaultAsync(u => u.Username == username);
+                user = await _db.GetProfileDataAsync(username);
             } else
             {
-                user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == username);
+                user = await _dbContext.GetProfileDataAsync(username);
             }
             if (user == null)
             {
@@ -92,7 +92,7 @@ namespace RCL
                 Message = "You cannot delete an admin!";
                 return;
             }
-            if (PlatformCheck.IsAndroid())
+            if (_sharedPreferences.IsAndroid)
             {
                 _db.Users.Remove(user);
                 await _db.SaveChangesAsync();
@@ -108,12 +108,12 @@ namespace RCL
         public async Task AdminUser(string username)
         {
             User user;
-            if (PlatformCheck.IsAndroid())
+            if (_sharedPreferences.IsAndroid)
             {
-                user = await _db.Users.FirstOrDefaultAsync(u => u.Username == username);
+                user = await _db.GetProfileDataAsync(username);
             } else
             {
-                user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == username);
+                user = await _dbContext.GetProfileDataAsync(username);
             }
             if (user == null)
             {
@@ -126,7 +126,7 @@ namespace RCL
                 return;
             }
             user.isAdmin = "yes";
-            if (PlatformCheck.IsAndroid())
+            if (_sharedPreferences.IsAndroid)
             {
                 _db.Users.Update(user);
                 await _db.SaveChangesAsync();
@@ -144,7 +144,7 @@ namespace RCL
             _navigationManager.NavigateTo("/");
         }
 
-        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        protected void OnPropertyChanged([CallerMemberName] string? propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }

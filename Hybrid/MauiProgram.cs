@@ -22,7 +22,6 @@ namespace Hybrid
             builder.Services.AddSingleton<ApplicationDbContext>();
             builder.Services.AddSingleton<Auth>();
             builder.Services.AddSingleton<SharedPreferences>();
-            builder.Services.AddSingleton<PlatformCheck>();
             string dbPath = Path.Combine(FileSystem.AppDataDirectory, "localdb.db");
             builder.Services.AddDbContext<LocalDb>(options =>
                 options.UseSqlite($"Data Source={dbPath}"));
@@ -31,8 +30,9 @@ namespace Hybrid
             builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
-            //initialize the database
             var app = builder.Build();
+
+            //initialize the local database
             using (var scope = app.Services.CreateScope())
             {
                 var context = scope.ServiceProvider.GetRequiredService<LocalDb>();

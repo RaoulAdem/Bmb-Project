@@ -3,64 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\components\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\components\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\viewmodel\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\viewmodel\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\viewmodel\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\viewmodel\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\components\\pages\\admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\components\\pages\\admin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\services\\platformcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\services\\platformcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\components\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\components\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\services\\localdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\services\\localdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\services\\sharedpreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\services\\sharedpreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5036BC8-DE79-42F1-B0C4-1B82FBD44EF6}|Hybrid\\Hybrid.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\hybrid\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5036BC8-DE79-42F1-B0C4-1B82FBD44EF6}|Hybrid\\Hybrid.csproj|solutionrelative:hybrid\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\services\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\services\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0708821-1A99-493B-A925-06E872C72BD5}|Blazor\\Blazor.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0708821-1A99-493B-A925-06E872C72BD5}|Blazor\\Blazor.csproj|solutionrelative:blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E5036BC8-DE79-42F1-B0C4-1B82FBD44EF6}|Hybrid\\Hybrid.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\hybrid\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5036BC8-DE79-42F1-B0C4-1B82FBD44EF6}|Hybrid\\Hybrid.csproj|solutionrelative:hybrid\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\rcl\\services\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B58545-0419-4CDE-B44D-9F7DFF8B2080}|RCL\\RCL.csproj|solutionrelative:rcl\\services\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5036BC8-DE79-42F1-B0C4-1B82FBD44EF6}|Hybrid\\Hybrid.csproj|c:\\users\\user\\desktop\\bmb\\hybrid mvvm\\hybrid\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,32 +90,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Models\\User.cs",
-              "RelativeDocumentMoniker": "RCL\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Models\\User.cs",
-              "RelativeToolTip": "RCL\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
+              "DocumentIndex": 5,
+              "Title": "SharedPreferences.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\SharedPreferences.cs",
+              "RelativeDocumentMoniker": "RCL\\Services\\SharedPreferences.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\SharedPreferences.cs",
+              "RelativeToolTip": "RCL\\Services\\SharedPreferences.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T08:05:50.302Z",
+              "WhenOpened": "2024-06-27T08:49:57.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "RCL\\Services\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\ApplicationDbContext.cs",
+              "RelativeToolTip": "RCL\\Services\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:36:26.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PlatformCheck.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\PlatformCheck.cs",
-              "RelativeDocumentMoniker": "RCL\\Services\\PlatformCheck.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\PlatformCheck.cs",
-              "RelativeToolTip": "RCL\\Services\\PlatformCheck.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA9AAAA",
+              "Title": "Auth.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\Auth.cs",
+              "RelativeDocumentMoniker": "RCL\\Services\\Auth.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\Auth.cs",
+              "RelativeToolTip": "RCL\\Services\\Auth.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T09:33:32.816Z",
+              "WhenOpened": "2024-06-19T08:57:38.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LocalDb.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\LocalDb.cs",
+              "RelativeDocumentMoniker": "RCL\\Services\\LocalDb.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\LocalDb.cs",
+              "RelativeToolTip": "RCL\\Services\\LocalDb.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvygAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T08:27:15.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Admin.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Components\\Pages\\Admin.razor",
+              "RelativeDocumentMoniker": "RCL\\Components\\Pages\\Admin.razor",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Components\\Pages\\Admin.razor",
+              "RelativeToolTip": "RCL\\Components\\Pages\\Admin.razor",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEAAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T09:42:44.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\ViewModel\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "RCL\\ViewModel\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\ViewModel\\HomeViewModel.cs",
+              "RelativeToolTip": "RCL\\ViewModel\\HomeViewModel.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAQwDwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:21:16.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Blazor\\Program.cs",
+              "RelativeDocumentMoniker": "Blazor\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Blazor\\Program.cs",
+              "RelativeToolTip": "Blazor\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:07:53.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile.razor",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Components\\Pages\\Profile.razor",
+              "RelativeDocumentMoniker": "RCL\\Components\\Pages\\Profile.razor",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Components\\Pages\\Profile.razor",
+              "RelativeToolTip": "RCL\\Components\\Pages\\Profile.razor",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T09:14:22.62Z",
               "EditorCaption": ""
             },
             {
@@ -142,170 +204,26 @@
               "RelativeDocumentMoniker": "RCL\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "RCL\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-20T06:22:30.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Blazor\\Program.cs",
-              "RelativeDocumentMoniker": "Blazor\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Blazor\\Program.cs",
-              "RelativeToolTip": "Blazor\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T08:07:53.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Profile.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Components\\Pages\\Profile.razor",
-              "RelativeDocumentMoniker": "RCL\\Components\\Pages\\Profile.razor",
-              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Components\\Pages\\Profile.razor",
-              "RelativeToolTip": "RCL\\Components\\Pages\\Profile.razor",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADoAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-20T09:14:22.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Admin.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Components\\Pages\\Admin.razor",
-              "RelativeDocumentMoniker": "RCL\\Components\\Pages\\Admin.razor",
-              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Components\\Pages\\Admin.razor",
-              "RelativeToolTip": "RCL\\Components\\Pages\\Admin.razor",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAkAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T09:42:44.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProfileViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\ViewModel\\ProfileViewModel.cs",
-              "RelativeDocumentMoniker": "RCL\\ViewModel\\ProfileViewModel.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\ViewModel\\ProfileViewModel.cs",
-              "RelativeToolTip": "RCL\\ViewModel\\ProfileViewModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:33:22.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\ViewModel\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "RCL\\ViewModel\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\ViewModel\\RegisterViewModel.cs",
-              "RelativeToolTip": "RCL\\ViewModel\\RegisterViewModel.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAswGkAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T08:47:29.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "RCL\\Services\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\ApplicationDbContext.cs",
-              "RelativeToolTip": "RCL\\Services\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:36:26.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\ViewModel\\HomeViewModel.cs",
-              "RelativeDocumentMoniker": "RCL\\ViewModel\\HomeViewModel.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\ViewModel\\HomeViewModel.cs",
-              "RelativeToolTip": "RCL\\ViewModel\\HomeViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T08:21:16.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\ViewModel\\AdminViewModel.cs",
-              "RelativeDocumentMoniker": "RCL\\ViewModel\\AdminViewModel.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\ViewModel\\AdminViewModel.cs",
-              "RelativeToolTip": "RCL\\ViewModel\\AdminViewModel.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAADwv34AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T06:16:01.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LocalDb.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\LocalDb.cs",
-              "RelativeDocumentMoniker": "RCL\\Services\\LocalDb.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\LocalDb.cs",
-              "RelativeToolTip": "RCL\\Services\\LocalDb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T08:27:15.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Hybrid\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "Hybrid\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Hybrid\\MauiProgram.cs",
-              "RelativeToolTip": "Hybrid\\MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABOAAAA",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "RCL\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Models\\User.cs",
+              "RelativeToolTip": "RCL\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T08:08:15.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T08:05:50.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Register.razor",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Components\\Pages\\Register.razor",
-              "RelativeDocumentMoniker": "RCL\\Components\\Pages\\Register.razor",
-              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Components\\Pages\\Register.razor",
-              "RelativeToolTip": "RCL\\Components\\Pages\\Register.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T09:47:30.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Auth.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\Auth.cs",
-              "RelativeDocumentMoniker": "RCL\\Services\\Auth.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Services\\Auth.cs",
-              "RelativeToolTip": "RCL\\Services\\Auth.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T08:57:38.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Hybrid\\Platforms\\Android\\MainActivity.cs",
               "RelativeDocumentMoniker": "Hybrid\\Platforms\\Android\\MainActivity.cs",
@@ -313,12 +231,11 @@
               "RelativeToolTip": "Hybrid\\Platforms\\Android\\MainActivity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T07:41:25.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T07:41:25.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 12,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Hybrid\\Platforms\\Android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "Hybrid\\Platforms\\Android\\AndroidManifest.xml",
@@ -329,19 +246,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 16,
               "Title": "Hybrid",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Hybrid\\Hybrid.csproj",
               "RelativeDocumentMoniker": "Hybrid\\Hybrid.csproj",
               "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Hybrid\\Hybrid.csproj",
               "RelativeToolTip": "Hybrid\\Hybrid.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-19T13:10:31.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T13:10:31.851Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Blazor\\appsettings.json",
               "RelativeDocumentMoniker": "Blazor\\appsettings.json",
@@ -349,12 +265,11 @@
               "RelativeToolTip": "Blazor\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-19T12:54:00.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T12:54:00.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 13,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Hybrid\\MainPage.xaml",
               "RelativeDocumentMoniker": "Hybrid\\MainPage.xaml",
@@ -362,12 +277,11 @@
               "RelativeToolTip": "Hybrid\\MainPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-25T09:09:11.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T09:09:11.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 14,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Hybrid\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "Hybrid\\wwwroot\\index.html",
@@ -375,12 +289,11 @@
               "RelativeToolTip": "Hybrid\\wwwroot\\index.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-19T12:53:43.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T12:53:43.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 17,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "RCL\\Components\\Routes.razor",
@@ -388,12 +301,11 @@
               "RelativeToolTip": "RCL\\Components\\Routes.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T12:52:28.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T12:52:28.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 18,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\_Imports.razor",
               "RelativeDocumentMoniker": "RCL\\_Imports.razor",
@@ -401,12 +313,11 @@
               "RelativeToolTip": "RCL\\_Imports.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T12:52:34.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T12:52:34.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 19,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\RCL\\wwwroot\\css\\app.css",
               "RelativeDocumentMoniker": "RCL\\wwwroot\\css\\app.css",
@@ -414,7 +325,40 @@
               "RelativeToolTip": "RCL\\wwwroot\\css\\app.css",
               "ViewState": "AQIAADIAAAAAAAAAAAAowD8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-19T09:53:47.322Z",
+              "WhenOpened": "2024-06-19T09:53:47.322Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "4686ba4f-22cc-4944-983d-84220945727e",
+        "Display": 0,
+        "X": -87,
+        "Y": 0,
+        "Width": 1557,
+        "Height": 957,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Hybrid\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Hybrid\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\BMB\\Hybrid MVVM\\Hybrid\\MauiProgram.cs",
+              "RelativeToolTip": "Hybrid\\MauiProgram.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T09:16:19.54Z",
               "EditorCaption": ""
             }
           ]

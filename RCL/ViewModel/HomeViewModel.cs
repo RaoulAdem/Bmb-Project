@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.EntityFrameworkCore;
 using MySqlConnector;
+using Xamarin.Essentials;
 
 namespace RCL
 {
@@ -54,12 +55,13 @@ namespace RCL
         public async Task HandleAuth()
         {
             User user;
-            if (PlatformCheck.IsAndroid())
+            if (DeviceInfo.Platform == DevicePlatform.Android)
             {
-                user = await _db.Users.FirstOrDefaultAsync(u => u.Username.ToLower() == _data.Username.ToLower() && u.Password == _data.Password);
+                user = await _db.GetUserAsync(username: _data.Username, password: _data.Password);
+                _sharedPreferences.IsAndroid = true;
             } else
             {
-                user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username.ToLower() == _data.Username.ToLower() && u.Password == _data.Password);
+                user = await _dbContext.GetUserAsync(username: _data.Username, password: _data.Password);
             }
             if (user != null)
             {
@@ -87,7 +89,7 @@ namespace RCL
             OnPropertyChanged(nameof(IsLoggedIn)); //refresh page
         }
 
-        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        protected void OnPropertyChanged([CallerMemberName] string? propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }

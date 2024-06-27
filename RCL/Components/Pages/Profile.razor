@@ -39,7 +39,7 @@ else
         <div>
             @if (string.IsNullOrEmpty(viewModel.Data.Profile))
             {
-                <img src="/_content/RCL/Images/profile.jpg" class="img-full-width" />
+                <img src="/_content/RCL/Images/profile.png" class="img-full-width" />
             } else
             {
                 <img src="@viewModel.Data.Profile" class="img-full-width" />
@@ -57,7 +57,7 @@ else
             <br />
             <label>Profile:</label>
             <br />
-            @if (PlatformCheck.IsAndroid())
+            @if (SharedPreferences.IsAndroid)
             {
                 <button @onclick="viewModel.HandleFileSelectedAndroid" >Pick a picture</button>
                 <button @onclick="viewModel.HandlePhotoTakeAndroid" >Take a photo</button>
